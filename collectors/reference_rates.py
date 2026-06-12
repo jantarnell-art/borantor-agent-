@@ -92,6 +92,31 @@ def collect_latest_reference_rates() -> list[dict]:
     return results
 
 
+def list_available_series(search: str = "") -> list[dict]:
+    """
+    Fetch all series available in the Riksbanken SWEA API.
+    Optionally filter by a search string (case-insensitive).
+    Useful for finding the correct series IDs.
+    """
+    url = f"{RIKSBANK_API}/series"
+    try:
+        resp = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        all_series = resp.json()
+    except requests.RequestException as exc:
+        logger.error("Riksbanken API – kan inte hämta serielist: %s", exc)
+        return []
+
+    if search:
+        search_lower = search.lower()
+        return [
+            s for s in all_series
+            if search_lower in s.get("seriesid", "").lower()
+            or search_lower in s.get("description", "").lower()
+        ]
+    return all_series
+
+
 def collect_reference_rate_history(days: int = 365) -> list[dict]:
     """Fetch full history for all series. Used for backfill on first run."""
     to_date = date.today()

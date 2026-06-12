@@ -64,16 +64,21 @@ BANKS = {
 }
 
 # Riksbanken API base URL (SWEA = Swedish Economic Archive)
+# Dokumentation: https://api.riksbank.se/swea/v1/
+# Lista alla tillgängliga serier: GET /series
 RIKSBANK_API = "https://api.riksbank.se/swea/v1"
 
-# Series IDs from Riksbanken's API
+# Serie-ID:n från Riksbankens SWEA API (verifierade 2025)
+# Kör  python main.py list-series  för att se alla tillgängliga serier
 RIKSBANK_SERIES = {
-    "policy_rate": "SECBREPOEFF",       # Riksbankens styrränta (effectiv)
-    "stibor_3m": "SESTIBOR3M",          # STIBOR 3 månader
-    "stibor_1w": "SESTIBOR1W",          # STIBOR 1 vecka
-    "gov_bond_2y": "SEGVB2YC",          # Statsobligation 2 år
-    "gov_bond_5y": "SEGVB5YC",          # Statsobligation 5 år
-    "mortgage_rate_avg": "SEMORTNAVG",  # Genomsnittlig bolåneränta (om tillgänglig)
+    "policy_rate": "SECBREPOEFF",   # Riksbankens styrränta (effectiv reporänta)
+    "stibor_3m":   "SESTIBOR3M",    # STIBOR 3 månader
+    "stibor_1w":   "SESTIBOR1W",    # STIBOR 1 vecka
+    "gov_bond_2y": "SEGVB2YC",      # Svenska statsobligationer 2 år
+    "gov_bond_5y": "SEGVB5YC",      # Svenska statsobligationer 5 år
+    # Genomsnittlig bolåneränta publiceras av SCB, inte Riksbanken –
+    # den är kommenterad tills en stabil källa hittas
+    # "mortgage_rate_avg": "SEMORTNAVG",
 }
 
 REQUEST_TIMEOUT = 15

@@ -249,6 +249,26 @@ def cmd_run() -> None:
     logger.info("=== Daglig körning klar ===")
 
 
+def cmd_list_series() -> None:
+    """List available series in Riksbanken's API (for finding correct series IDs)."""
+    from collectors.reference_rates import list_available_series
+    import sys
+
+    search = sys.argv[2] if len(sys.argv) > 2 else ""
+    series = list_available_series(search)
+    if not series:
+        print("Inga serier hittades (eller kunde inte ansluta till Riksbankens API).")
+        return
+    print(f"\n{'Serie-ID':<20} {'Beskrivning'}")
+    print("-" * 80)
+    for s in series[:100]:
+        sid = s.get("seriesid", s.get("seriesId", ""))
+        desc = s.get("description", s.get("name", ""))
+        print(f"{sid:<20} {desc}")
+    if len(series) > 100:
+        print(f"\n... och {len(series) - 100} till. Sök med: python main.py list-series <sökord>")
+
+
 # ── CLI entry point ───────────────────────────────────────────────────────────
 
 COMMANDS = {
@@ -259,6 +279,7 @@ COMMANDS = {
     "warnings": cmd_warnings,
     "add-offer": cmd_add_offer,
     "run": cmd_run,
+    "list-series": cmd_list_series,
 }
 
 
