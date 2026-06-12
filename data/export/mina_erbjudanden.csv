@@ -1,0 +1,4 @@
+id,created_at,offer_date,bank,period_key,period_label,offered_rate,loan_amount,discount_vs_list,comment,source
+3,2026-06-12T22:02:00.586750,2026-06-10,Handelsbanken,3_ar,3 år,3.02,3500000,0.08,Nytt erbjudande – rabatten fortsätter krympa!,App-erbjudande
+2,2026-06-12T22:02:00.581853,2026-03-20,Handelsbanken,3_ar,3 år,2.9,3500000,0.25,Förnyelse – räntan höjdes mer än listräntan,Telefonsamtal
+1,2026-06-12T22:02:00.573617,2026-01-15,Handelsbanken,3_ar,3 år,2.75,3500000,0.35,Förhandlat lån - bra rabatt initialt,Möte med rådgivare

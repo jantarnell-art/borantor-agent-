@@ -1,0 +1,561 @@
+id,collected_at,rate_date,bank,period_key,period_label,rate,source_url
+547,2026-06-12T22:01:50.100747,2026-06-12,Danske Bank,1_ar,1 år,3.074,https://danskebank.se
+548,2026-06-12T22:01:50.105662,2026-06-12,Danske Bank,2_ar,2 år,3.054,https://danskebank.se
+549,2026-06-12T22:01:50.111077,2026-06-12,Danske Bank,3_ar,3 år,3.004,https://danskebank.se
+546,2026-06-12T22:01:50.095695,2026-06-12,Danske Bank,3_man,3 månader,3.124,https://danskebank.se
+550,2026-06-12T22:01:50.115357,2026-06-12,Danske Bank,5_ar,5 år,3.154,https://danskebank.se
+532,2026-06-12T22:01:50.025359,2026-06-12,Handelsbanken,1_ar,1 år,3.074,https://handelsbanken.se
+533,2026-06-12T22:01:50.030743,2026-06-12,Handelsbanken,2_ar,2 år,3.054,https://handelsbanken.se
+534,2026-06-12T22:01:50.035901,2026-06-12,Handelsbanken,3_ar,3 år,3.024,https://handelsbanken.se
+531,2026-06-12T22:01:50.020327,2026-06-12,Handelsbanken,3_man,3 månader,3.154,https://handelsbanken.se
+535,2026-06-12T22:01:50.041200,2026-06-12,Handelsbanken,5_ar,5 år,3.174,https://handelsbanken.se
+552,2026-06-12T22:01:50.122236,2026-06-12,Länsförsäkringar,1_ar,1 år,3.024,https://länsförsäkringar.se
+553,2026-06-12T22:01:50.125693,2026-06-12,Länsförsäkringar,2_ar,2 år,2.994,https://länsförsäkringar.se
+554,2026-06-12T22:01:50.129616,2026-06-12,Länsförsäkringar,3_ar,3 år,2.954,https://länsförsäkringar.se
+551,2026-06-12T22:01:50.118687,2026-06-12,Länsförsäkringar,3_man,3 månader,3.074,https://länsförsäkringar.se
+555,2026-06-12T22:01:50.138195,2026-06-12,Länsförsäkringar,5_ar,5 år,3.094,https://länsförsäkringar.se
+542,2026-06-12T22:01:50.076271,2026-06-12,Nordea,1_ar,1 år,3.154,https://nordea.se
+543,2026-06-12T22:01:50.081078,2026-06-12,Nordea,2_ar,2 år,3.114,https://nordea.se
+544,2026-06-12T22:01:50.085605,2026-06-12,Nordea,3_ar,3 år,3.064,https://nordea.se
+541,2026-06-12T22:01:50.071001,2026-06-12,Nordea,3_man,3 månader,3.174,https://nordea.se
+545,2026-06-12T22:01:50.090584,2026-06-12,Nordea,5_ar,5 år,3.254,https://nordea.se
+522,2026-06-12T22:01:49.986740,2026-06-12,SBAB,1_ar,1 år,3.054,https://sbab.se
+523,2026-06-12T22:01:49.990438,2026-06-12,SBAB,2_ar,2 år,3.024,https://sbab.se
+524,2026-06-12T22:01:49.994026,2026-06-12,SBAB,3_ar,3 år,2.984,https://sbab.se
+521,2026-06-12T22:01:49.982680,2026-06-12,SBAB,3_man,3 månader,3.094,https://sbab.se
+525,2026-06-12T22:01:49.997478,2026-06-12,SBAB,5_ar,5 år,3.124,https://sbab.se
+537,2026-06-12T22:01:50.051527,2026-06-12,SEB,1_ar,1 år,3.124,https://seb.se
+538,2026-06-12T22:01:50.056474,2026-06-12,SEB,2_ar,2 år,3.094,https://seb.se
+539,2026-06-12T22:01:50.061224,2026-06-12,SEB,3_ar,3 år,3.054,https://seb.se
+536,2026-06-12T22:01:50.046353,2026-06-12,SEB,3_man,3 månader,3.194,https://seb.se
+540,2026-06-12T22:01:50.065952,2026-06-12,SEB,5_ar,5 år,3.224,https://seb.se
+557,2026-06-12T22:01:50.148067,2026-06-12,Skandia,1_ar,1 år,3.064,https://skandia.se
+558,2026-06-12T22:01:50.153329,2026-06-12,Skandia,2_ar,2 år,3.034,https://skandia.se
+559,2026-06-12T22:01:50.158417,2026-06-12,Skandia,3_ar,3 år,2.974,https://skandia.se
+556,2026-06-12T22:01:50.142833,2026-06-12,Skandia,3_man,3 månader,3.114,https://skandia.se
+560,2026-06-12T22:01:50.163365,2026-06-12,Skandia,5_ar,5 år,3.134,https://skandia.se
+527,2026-06-12T22:01:50.004682,2026-06-12,Swedbank,1_ar,1 år,3.174,https://swedbank.se
+528,2026-06-12T22:01:50.008478,2026-06-12,Swedbank,2_ar,2 år,3.124,https://swedbank.se
+529,2026-06-12T22:01:50.012049,2026-06-12,Swedbank,3_ar,3 år,3.074,https://swedbank.se
+526,2026-06-12T22:01:50.001125,2026-06-12,Swedbank,3_man,3 månader,3.224,https://swedbank.se
+530,2026-06-12T22:01:50.016178,2026-06-12,Swedbank,5_ar,5 år,3.274,https://swedbank.se
+507,2026-06-12T22:01:49.909084,2026-06-11,Danske Bank,1_ar,1 år,3.081,https://danskebank.se
+508,2026-06-12T22:01:49.913841,2026-06-11,Danske Bank,2_ar,2 år,3.061,https://danskebank.se
+509,2026-06-12T22:01:49.919406,2026-06-11,Danske Bank,3_ar,3 år,3.011,https://danskebank.se
+506,2026-06-12T22:01:49.904291,2026-06-11,Danske Bank,3_man,3 månader,3.131,https://danskebank.se
+510,2026-06-12T22:01:49.925197,2026-06-11,Danske Bank,5_ar,5 år,3.161,https://danskebank.se
+492,2026-06-12T22:01:49.829253,2026-06-11,Handelsbanken,1_ar,1 år,3.081,https://handelsbanken.se
+493,2026-06-12T22:01:49.834727,2026-06-11,Handelsbanken,2_ar,2 år,3.061,https://handelsbanken.se
+494,2026-06-12T22:01:49.840449,2026-06-11,Handelsbanken,3_ar,3 år,3.031,https://handelsbanken.se
+491,2026-06-12T22:01:49.823588,2026-06-11,Handelsbanken,3_man,3 månader,3.161,https://handelsbanken.se
+495,2026-06-12T22:01:49.845458,2026-06-11,Handelsbanken,5_ar,5 år,3.181,https://handelsbanken.se
+512,2026-06-12T22:01:49.936652,2026-06-11,Länsförsäkringar,1_ar,1 år,3.031,https://länsförsäkringar.se
+513,2026-06-12T22:01:49.942217,2026-06-11,Länsförsäkringar,2_ar,2 år,3.001,https://länsförsäkringar.se
+514,2026-06-12T22:01:49.947570,2026-06-11,Länsförsäkringar,3_ar,3 år,2.961,https://länsförsäkringar.se
+511,2026-06-12T22:01:49.931240,2026-06-11,Länsförsäkringar,3_man,3 månader,3.081,https://länsförsäkringar.se
+515,2026-06-12T22:01:49.952764,2026-06-11,Länsförsäkringar,5_ar,5 år,3.101,https://länsförsäkringar.se
+502,2026-06-12T22:01:49.882606,2026-06-11,Nordea,1_ar,1 år,3.161,https://nordea.se
+503,2026-06-12T22:01:49.888073,2026-06-11,Nordea,2_ar,2 år,3.121,https://nordea.se
+504,2026-06-12T22:01:49.893915,2026-06-11,Nordea,3_ar,3 år,3.071,https://nordea.se
+501,2026-06-12T22:01:49.877234,2026-06-11,Nordea,3_man,3 månader,3.181,https://nordea.se
+505,2026-06-12T22:01:49.898949,2026-06-11,Nordea,5_ar,5 år,3.261,https://nordea.se
+482,2026-06-12T22:01:49.774490,2026-06-11,SBAB,1_ar,1 år,3.061,https://sbab.se
+483,2026-06-12T22:01:49.780116,2026-06-11,SBAB,2_ar,2 år,3.031,https://sbab.se
+484,2026-06-12T22:01:49.784885,2026-06-11,SBAB,3_ar,3 år,2.991,https://sbab.se
+481,2026-06-12T22:01:49.769562,2026-06-11,SBAB,3_man,3 månader,3.101,https://sbab.se
+485,2026-06-12T22:01:49.790997,2026-06-11,SBAB,5_ar,5 år,3.131,https://sbab.se
+497,2026-06-12T22:01:49.856303,2026-06-11,SEB,1_ar,1 år,3.131,https://seb.se
+498,2026-06-12T22:01:49.861914,2026-06-11,SEB,2_ar,2 år,3.101,https://seb.se
+499,2026-06-12T22:01:49.867327,2026-06-11,SEB,3_ar,3 år,3.061,https://seb.se
+496,2026-06-12T22:01:49.850894,2026-06-11,SEB,3_man,3 månader,3.201,https://seb.se
+500,2026-06-12T22:01:49.872356,2026-06-11,SEB,5_ar,5 år,3.231,https://seb.se
+517,2026-06-12T22:01:49.963966,2026-06-11,Skandia,1_ar,1 år,3.071,https://skandia.se
+518,2026-06-12T22:01:49.969119,2026-06-11,Skandia,2_ar,2 år,3.041,https://skandia.se
+519,2026-06-12T22:01:49.974272,2026-06-11,Skandia,3_ar,3 år,2.981,https://skandia.se
+516,2026-06-12T22:01:49.957993,2026-06-11,Skandia,3_man,3 månader,3.121,https://skandia.se
+520,2026-06-12T22:01:49.978915,2026-06-11,Skandia,5_ar,5 år,3.141,https://skandia.se
+487,2026-06-12T22:01:49.802088,2026-06-11,Swedbank,1_ar,1 år,3.181,https://swedbank.se
+488,2026-06-12T22:01:49.807793,2026-06-11,Swedbank,2_ar,2 år,3.131,https://swedbank.se
+489,2026-06-12T22:01:49.812953,2026-06-11,Swedbank,3_ar,3 år,3.081,https://swedbank.se
+486,2026-06-12T22:01:49.796464,2026-06-11,Swedbank,3_man,3 månader,3.231,https://swedbank.se
+490,2026-06-12T22:01:49.817992,2026-06-11,Swedbank,5_ar,5 år,3.281,https://swedbank.se
+467,2026-06-12T22:01:49.718529,2026-06-10,Danske Bank,1_ar,1 år,3.088,https://danskebank.se
+468,2026-06-12T22:01:49.722030,2026-06-10,Danske Bank,2_ar,2 år,3.068,https://danskebank.se
+469,2026-06-12T22:01:49.725399,2026-06-10,Danske Bank,3_ar,3 år,3.018,https://danskebank.se
+466,2026-06-12T22:01:49.715121,2026-06-10,Danske Bank,3_man,3 månader,3.138,https://danskebank.se
+470,2026-06-12T22:01:49.728527,2026-06-10,Danske Bank,5_ar,5 år,3.168,https://danskebank.se
+452,2026-06-12T22:01:49.667434,2026-06-10,Handelsbanken,1_ar,1 år,3.088,https://handelsbanken.se
+453,2026-06-12T22:01:49.670954,2026-06-10,Handelsbanken,2_ar,2 år,3.068,https://handelsbanken.se
+454,2026-06-12T22:01:49.674371,2026-06-10,Handelsbanken,3_ar,3 år,3.038,https://handelsbanken.se
+451,2026-06-12T22:01:49.663736,2026-06-10,Handelsbanken,3_man,3 månader,3.168,https://handelsbanken.se
+455,2026-06-12T22:01:49.678123,2026-06-10,Handelsbanken,5_ar,5 år,3.188,https://handelsbanken.se
+472,2026-06-12T22:01:49.735011,2026-06-10,Länsförsäkringar,1_ar,1 år,3.038,https://länsförsäkringar.se
+473,2026-06-12T22:01:49.738514,2026-06-10,Länsförsäkringar,2_ar,2 år,3.008,https://länsförsäkringar.se
+474,2026-06-12T22:01:49.741800,2026-06-10,Länsförsäkringar,3_ar,3 år,2.968,https://länsförsäkringar.se
+471,2026-06-12T22:01:49.731595,2026-06-10,Länsförsäkringar,3_man,3 månader,3.088,https://länsförsäkringar.se
+475,2026-06-12T22:01:49.744987,2026-06-10,Länsförsäkringar,5_ar,5 år,3.108,https://länsförsäkringar.se
+462,2026-06-12T22:01:49.701712,2026-06-10,Nordea,1_ar,1 år,3.168,https://nordea.se
+463,2026-06-12T22:01:49.704993,2026-06-10,Nordea,2_ar,2 år,3.128,https://nordea.se
+464,2026-06-12T22:01:49.708290,2026-06-10,Nordea,3_ar,3 år,3.078,https://nordea.se
+461,2026-06-12T22:01:49.698507,2026-06-10,Nordea,3_man,3 månader,3.188,https://nordea.se
+465,2026-06-12T22:01:49.711733,2026-06-10,Nordea,5_ar,5 år,3.268,https://nordea.se
+442,2026-06-12T22:01:49.631716,2026-06-10,SBAB,1_ar,1 år,3.068,https://sbab.se
+443,2026-06-12T22:01:49.634954,2026-06-10,SBAB,2_ar,2 år,3.038,https://sbab.se
+444,2026-06-12T22:01:49.638516,2026-06-10,SBAB,3_ar,3 år,2.998,https://sbab.se
+441,2026-06-12T22:01:49.628407,2026-06-10,SBAB,3_man,3 månader,3.108,https://sbab.se
+445,2026-06-12T22:01:49.642270,2026-06-10,SBAB,5_ar,5 år,3.138,https://sbab.se
+457,2026-06-12T22:01:49.685306,2026-06-10,SEB,1_ar,1 år,3.138,https://seb.se
+458,2026-06-12T22:01:49.688562,2026-06-10,SEB,2_ar,2 år,3.108,https://seb.se
+459,2026-06-12T22:01:49.691986,2026-06-10,SEB,3_ar,3 år,3.068,https://seb.se
+456,2026-06-12T22:01:49.681719,2026-06-10,SEB,3_man,3 månader,3.208,https://seb.se
+460,2026-06-12T22:01:49.695149,2026-06-10,SEB,5_ar,5 år,3.238,https://seb.se
+477,2026-06-12T22:01:49.751979,2026-06-10,Skandia,1_ar,1 år,3.078,https://skandia.se
+478,2026-06-12T22:01:49.755348,2026-06-10,Skandia,2_ar,2 år,3.048,https://skandia.se
+479,2026-06-12T22:01:49.758563,2026-06-10,Skandia,3_ar,3 år,2.988,https://skandia.se
+476,2026-06-12T22:01:49.748605,2026-06-10,Skandia,3_man,3 månader,3.128,https://skandia.se
+480,2026-06-12T22:01:49.763757,2026-06-10,Skandia,5_ar,5 år,3.148,https://skandia.se
+447,2026-06-12T22:01:49.649104,2026-06-10,Swedbank,1_ar,1 år,3.188,https://swedbank.se
+448,2026-06-12T22:01:49.652936,2026-06-10,Swedbank,2_ar,2 år,3.138,https://swedbank.se
+449,2026-06-12T22:01:49.656595,2026-06-10,Swedbank,3_ar,3 år,3.088,https://swedbank.se
+446,2026-06-12T22:01:49.645608,2026-06-10,Swedbank,3_man,3 månader,3.238,https://swedbank.se
+450,2026-06-12T22:01:49.660220,2026-06-10,Swedbank,5_ar,5 år,3.288,https://swedbank.se
+427,2026-06-12T22:01:49.578734,2026-06-09,Danske Bank,1_ar,1 år,3.08,https://danskebank.se
+428,2026-06-12T22:01:49.581957,2026-06-09,Danske Bank,2_ar,2 år,3.06,https://danskebank.se
+429,2026-06-12T22:01:49.585419,2026-06-09,Danske Bank,3_ar,3 år,3.01,https://danskebank.se
+426,2026-06-12T22:01:49.575375,2026-06-09,Danske Bank,3_man,3 månader,3.13,https://danskebank.se
+430,2026-06-12T22:01:49.589096,2026-06-09,Danske Bank,5_ar,5 år,3.16,https://danskebank.se
+412,2026-06-12T22:01:49.529356,2026-06-09,Handelsbanken,1_ar,1 år,3.08,https://handelsbanken.se
+413,2026-06-12T22:01:49.532572,2026-06-09,Handelsbanken,2_ar,2 år,3.06,https://handelsbanken.se
+414,2026-06-12T22:01:49.535889,2026-06-09,Handelsbanken,3_ar,3 år,3.03,https://handelsbanken.se
+411,2026-06-12T22:01:49.525815,2026-06-09,Handelsbanken,3_man,3 månader,3.16,https://handelsbanken.se
+415,2026-06-12T22:01:49.539101,2026-06-09,Handelsbanken,5_ar,5 år,3.18,https://handelsbanken.se
+432,2026-06-12T22:01:49.596615,2026-06-09,Länsförsäkringar,1_ar,1 år,3.03,https://länsförsäkringar.se
+433,2026-06-12T22:01:49.600241,2026-06-09,Länsförsäkringar,2_ar,2 år,3.0,https://länsförsäkringar.se
+434,2026-06-12T22:01:49.603456,2026-06-09,Länsförsäkringar,3_ar,3 år,2.96,https://länsförsäkringar.se
+431,2026-06-12T22:01:49.592407,2026-06-09,Länsförsäkringar,3_man,3 månader,3.08,https://länsförsäkringar.se
+435,2026-06-12T22:01:49.606961,2026-06-09,Länsförsäkringar,5_ar,5 år,3.1,https://länsförsäkringar.se
+422,2026-06-12T22:01:49.561778,2026-06-09,Nordea,1_ar,1 år,3.16,https://nordea.se
+423,2026-06-12T22:01:49.565576,2026-06-09,Nordea,2_ar,2 år,3.12,https://nordea.se
+424,2026-06-12T22:01:49.569281,2026-06-09,Nordea,3_ar,3 år,3.07,https://nordea.se
+421,2026-06-12T22:01:49.558535,2026-06-09,Nordea,3_man,3 månader,3.18,https://nordea.se
+425,2026-06-12T22:01:49.572354,2026-06-09,Nordea,5_ar,5 år,3.26,https://nordea.se
+402,2026-06-12T22:01:49.493324,2026-06-09,SBAB,1_ar,1 år,3.06,https://sbab.se
+403,2026-06-12T22:01:49.497430,2026-06-09,SBAB,2_ar,2 år,3.03,https://sbab.se
+404,2026-06-12T22:01:49.501743,2026-06-09,SBAB,3_ar,3 år,2.99,https://sbab.se
+401,2026-06-12T22:01:49.488534,2026-06-09,SBAB,3_man,3 månader,3.1,https://sbab.se
+405,2026-06-12T22:01:49.505098,2026-06-09,SBAB,5_ar,5 år,3.13,https://sbab.se
+417,2026-06-12T22:01:49.545407,2026-06-09,SEB,1_ar,1 år,3.13,https://seb.se
+418,2026-06-12T22:01:49.548763,2026-06-09,SEB,2_ar,2 år,3.1,https://seb.se
+419,2026-06-12T22:01:49.552097,2026-06-09,SEB,3_ar,3 år,3.06,https://seb.se
+416,2026-06-12T22:01:49.542249,2026-06-09,SEB,3_man,3 månader,3.2,https://seb.se
+420,2026-06-12T22:01:49.555350,2026-06-09,SEB,5_ar,5 år,3.23,https://seb.se
+437,2026-06-12T22:01:49.613851,2026-06-09,Skandia,1_ar,1 år,3.07,https://skandia.se
+438,2026-06-12T22:01:49.617135,2026-06-09,Skandia,2_ar,2 år,3.04,https://skandia.se
+439,2026-06-12T22:01:49.621050,2026-06-09,Skandia,3_ar,3 år,2.98,https://skandia.se
+436,2026-06-12T22:01:49.610463,2026-06-09,Skandia,3_man,3 månader,3.12,https://skandia.se
+440,2026-06-12T22:01:49.624751,2026-06-09,Skandia,5_ar,5 år,3.14,https://skandia.se
+407,2026-06-12T22:01:49.512156,2026-06-09,Swedbank,1_ar,1 år,3.18,https://swedbank.se
+408,2026-06-12T22:01:49.515407,2026-06-09,Swedbank,2_ar,2 år,3.13,https://swedbank.se
+409,2026-06-12T22:01:49.518931,2026-06-09,Swedbank,3_ar,3 år,3.08,https://swedbank.se
+406,2026-06-12T22:01:49.508430,2026-06-09,Swedbank,3_man,3 månader,3.23,https://swedbank.se
+410,2026-06-12T22:01:49.522397,2026-06-09,Swedbank,5_ar,5 år,3.28,https://swedbank.se
+387,2026-06-12T22:01:49.417715,2026-06-08,Danske Bank,1_ar,1 år,3.087,https://danskebank.se
+388,2026-06-12T22:01:49.422814,2026-06-08,Danske Bank,2_ar,2 år,3.067,https://danskebank.se
+389,2026-06-12T22:01:49.427987,2026-06-08,Danske Bank,3_ar,3 år,3.017,https://danskebank.se
+386,2026-06-12T22:01:49.412697,2026-06-08,Danske Bank,3_man,3 månader,3.137,https://danskebank.se
+390,2026-06-12T22:01:49.433293,2026-06-08,Danske Bank,5_ar,5 år,3.167,https://danskebank.se
+372,2026-06-12T22:01:49.341239,2026-06-08,Handelsbanken,1_ar,1 år,3.087,https://handelsbanken.se
+373,2026-06-12T22:01:49.346509,2026-06-08,Handelsbanken,2_ar,2 år,3.067,https://handelsbanken.se
+374,2026-06-12T22:01:49.351854,2026-06-08,Handelsbanken,3_ar,3 år,3.037,https://handelsbanken.se
+371,2026-06-12T22:01:49.336413,2026-06-08,Handelsbanken,3_man,3 månader,3.167,https://handelsbanken.se
+375,2026-06-12T22:01:49.357330,2026-06-08,Handelsbanken,5_ar,5 år,3.187,https://handelsbanken.se
+392,2026-06-12T22:01:49.443002,2026-06-08,Länsförsäkringar,1_ar,1 år,3.037,https://länsförsäkringar.se
+393,2026-06-12T22:01:49.448331,2026-06-08,Länsförsäkringar,2_ar,2 år,3.007,https://länsförsäkringar.se
+394,2026-06-12T22:01:49.453152,2026-06-08,Länsförsäkringar,3_ar,3 år,2.967,https://länsförsäkringar.se
+391,2026-06-12T22:01:49.438299,2026-06-08,Länsförsäkringar,3_man,3 månader,3.087,https://länsförsäkringar.se
+395,2026-06-12T22:01:49.458291,2026-06-08,Länsförsäkringar,5_ar,5 år,3.107,https://länsförsäkringar.se
+382,2026-06-12T22:01:49.392331,2026-06-08,Nordea,1_ar,1 år,3.167,https://nordea.se
+383,2026-06-12T22:01:49.397132,2026-06-08,Nordea,2_ar,2 år,3.127,https://nordea.se
+384,2026-06-12T22:01:49.401870,2026-06-08,Nordea,3_ar,3 år,3.077,https://nordea.se
+381,2026-06-12T22:01:49.387235,2026-06-08,Nordea,3_man,3 månader,3.187,https://nordea.se
+385,2026-06-12T22:01:49.407177,2026-06-08,Nordea,5_ar,5 år,3.267,https://nordea.se
+362,2026-06-12T22:01:49.291128,2026-06-08,SBAB,1_ar,1 år,3.067,https://sbab.se
+363,2026-06-12T22:01:49.296413,2026-06-08,SBAB,2_ar,2 år,3.037,https://sbab.se
+364,2026-06-12T22:01:49.301323,2026-06-08,SBAB,3_ar,3 år,2.997,https://sbab.se
+361,2026-06-12T22:01:49.286363,2026-06-08,SBAB,3_man,3 månader,3.107,https://sbab.se
+365,2026-06-12T22:01:49.306388,2026-06-08,SBAB,5_ar,5 år,3.137,https://sbab.se
+377,2026-06-12T22:01:49.367270,2026-06-08,SEB,1_ar,1 år,3.137,https://seb.se
+378,2026-06-12T22:01:49.372577,2026-06-08,SEB,2_ar,2 år,3.107,https://seb.se
+379,2026-06-12T22:01:49.377501,2026-06-08,SEB,3_ar,3 år,3.067,https://seb.se
+376,2026-06-12T22:01:49.362314,2026-06-08,SEB,3_man,3 månader,3.207,https://seb.se
+380,2026-06-12T22:01:49.381992,2026-06-08,SEB,5_ar,5 år,3.237,https://seb.se
+397,2026-06-12T22:01:49.468707,2026-06-08,Skandia,1_ar,1 år,3.077,https://skandia.se
+398,2026-06-12T22:01:49.473852,2026-06-08,Skandia,2_ar,2 år,3.047,https://skandia.se
+399,2026-06-12T22:01:49.478916,2026-06-08,Skandia,3_ar,3 år,2.987,https://skandia.se
+396,2026-06-12T22:01:49.463604,2026-06-08,Skandia,3_man,3 månader,3.127,https://skandia.se
+400,2026-06-12T22:01:49.483636,2026-06-08,Skandia,5_ar,5 år,3.147,https://skandia.se
+367,2026-06-12T22:01:49.316373,2026-06-08,Swedbank,1_ar,1 år,3.187,https://swedbank.se
+368,2026-06-12T22:01:49.320874,2026-06-08,Swedbank,2_ar,2 år,3.137,https://swedbank.se
+369,2026-06-12T22:01:49.326081,2026-06-08,Swedbank,3_ar,3 år,3.087,https://swedbank.se
+366,2026-06-12T22:01:49.311320,2026-06-08,Swedbank,3_man,3 månader,3.237,https://swedbank.se
+370,2026-06-12T22:01:49.330954,2026-06-08,Swedbank,5_ar,5 år,3.287,https://swedbank.se
+347,2026-06-12T22:01:49.217393,2026-06-07,Danske Bank,1_ar,1 år,3.094,https://danskebank.se
+348,2026-06-12T22:01:49.222008,2026-06-07,Danske Bank,2_ar,2 år,3.074,https://danskebank.se
+349,2026-06-12T22:01:49.227351,2026-06-07,Danske Bank,3_ar,3 år,3.024,https://danskebank.se
+346,2026-06-12T22:01:49.212629,2026-06-07,Danske Bank,3_man,3 månader,3.144,https://danskebank.se
+350,2026-06-12T22:01:49.232275,2026-06-07,Danske Bank,5_ar,5 år,3.174,https://danskebank.se
+332,2026-06-12T22:01:49.145181,2026-06-07,Handelsbanken,1_ar,1 år,3.094,https://handelsbanken.se
+333,2026-06-12T22:01:49.150060,2026-06-07,Handelsbanken,2_ar,2 år,3.074,https://handelsbanken.se
+334,2026-06-12T22:01:49.154763,2026-06-07,Handelsbanken,3_ar,3 år,3.044,https://handelsbanken.se
+331,2026-06-12T22:01:49.140073,2026-06-07,Handelsbanken,3_man,3 månader,3.174,https://handelsbanken.se
+335,2026-06-12T22:01:49.159564,2026-06-07,Handelsbanken,5_ar,5 år,3.194,https://handelsbanken.se
+352,2026-06-12T22:01:49.242194,2026-06-07,Länsförsäkringar,1_ar,1 år,3.044,https://länsförsäkringar.se
+353,2026-06-12T22:01:49.247198,2026-06-07,Länsförsäkringar,2_ar,2 år,3.014,https://länsförsäkringar.se
+354,2026-06-12T22:01:49.251870,2026-06-07,Länsförsäkringar,3_ar,3 år,2.974,https://länsförsäkringar.se
+351,2026-06-12T22:01:49.237179,2026-06-07,Länsförsäkringar,3_man,3 månader,3.094,https://länsförsäkringar.se
+355,2026-06-12T22:01:49.257320,2026-06-07,Länsförsäkringar,5_ar,5 år,3.114,https://länsförsäkringar.se
+342,2026-06-12T22:01:49.191542,2026-06-07,Nordea,1_ar,1 år,3.174,https://nordea.se
+343,2026-06-12T22:01:49.196511,2026-06-07,Nordea,2_ar,2 år,3.134,https://nordea.se
+344,2026-06-12T22:01:49.201207,2026-06-07,Nordea,3_ar,3 år,3.084,https://nordea.se
+341,2026-06-12T22:01:49.187192,2026-06-07,Nordea,3_man,3 månader,3.194,https://nordea.se
+345,2026-06-12T22:01:49.206243,2026-06-07,Nordea,5_ar,5 år,3.274,https://nordea.se
+322,2026-06-12T22:01:49.095996,2026-06-07,SBAB,1_ar,1 år,3.074,https://sbab.se
+323,2026-06-12T22:01:49.101006,2026-06-07,SBAB,2_ar,2 år,3.044,https://sbab.se
+324,2026-06-12T22:01:49.105950,2026-06-07,SBAB,3_ar,3 år,3.004,https://sbab.se
+321,2026-06-12T22:01:49.091339,2026-06-07,SBAB,3_man,3 månader,3.114,https://sbab.se
+325,2026-06-12T22:01:49.111243,2026-06-07,SBAB,5_ar,5 år,3.144,https://sbab.se
+337,2026-06-12T22:01:49.168681,2026-06-07,SEB,1_ar,1 år,3.144,https://seb.se
+338,2026-06-12T22:01:49.173140,2026-06-07,SEB,2_ar,2 år,3.114,https://seb.se
+339,2026-06-12T22:01:49.178013,2026-06-07,SEB,3_ar,3 år,3.074,https://seb.se
+336,2026-06-12T22:01:49.164196,2026-06-07,SEB,3_man,3 månader,3.214,https://seb.se
+340,2026-06-12T22:01:49.182682,2026-06-07,SEB,5_ar,5 år,3.244,https://seb.se
+357,2026-06-12T22:01:49.267364,2026-06-07,Skandia,1_ar,1 år,3.084,https://skandia.se
+358,2026-06-12T22:01:49.272049,2026-06-07,Skandia,2_ar,2 år,3.054,https://skandia.se
+359,2026-06-12T22:01:49.276877,2026-06-07,Skandia,3_ar,3 år,2.994,https://skandia.se
+356,2026-06-12T22:01:49.262409,2026-06-07,Skandia,3_man,3 månader,3.134,https://skandia.se
+360,2026-06-12T22:01:49.281457,2026-06-07,Skandia,5_ar,5 år,3.154,https://skandia.se
+327,2026-06-12T22:01:49.120821,2026-06-07,Swedbank,1_ar,1 år,3.194,https://swedbank.se
+328,2026-06-12T22:01:49.125474,2026-06-07,Swedbank,2_ar,2 år,3.144,https://swedbank.se
+329,2026-06-12T22:01:49.130702,2026-06-07,Swedbank,3_ar,3 år,3.094,https://swedbank.se
+326,2026-06-12T22:01:49.116153,2026-06-07,Swedbank,3_man,3 månader,3.244,https://swedbank.se
+330,2026-06-12T22:01:49.135700,2026-06-07,Swedbank,5_ar,5 år,3.294,https://swedbank.se
+307,2026-06-12T22:01:49.023379,2026-06-06,Danske Bank,1_ar,1 år,3.086,https://danskebank.se
+308,2026-06-12T22:01:49.028534,2026-06-06,Danske Bank,2_ar,2 år,3.066,https://danskebank.se
+309,2026-06-12T22:01:49.033391,2026-06-06,Danske Bank,3_ar,3 år,3.016,https://danskebank.se
+306,2026-06-12T22:01:49.018085,2026-06-06,Danske Bank,3_man,3 månader,3.136,https://danskebank.se
+310,2026-06-12T22:01:49.037915,2026-06-06,Danske Bank,5_ar,5 år,3.166,https://danskebank.se
+292,2026-06-12T22:01:48.946964,2026-06-06,Handelsbanken,1_ar,1 år,3.086,https://handelsbanken.se
+293,2026-06-12T22:01:48.952484,2026-06-06,Handelsbanken,2_ar,2 år,3.066,https://handelsbanken.se
+294,2026-06-12T22:01:48.957541,2026-06-06,Handelsbanken,3_ar,3 år,3.036,https://handelsbanken.se
+291,2026-06-12T22:01:48.941437,2026-06-06,Handelsbanken,3_man,3 månader,3.166,https://handelsbanken.se
+295,2026-06-12T22:01:48.962676,2026-06-06,Handelsbanken,5_ar,5 år,3.186,https://handelsbanken.se
+312,2026-06-12T22:01:49.047376,2026-06-06,Länsförsäkringar,1_ar,1 år,3.036,https://länsförsäkringar.se
+313,2026-06-12T22:01:49.051948,2026-06-06,Länsförsäkringar,2_ar,2 år,3.006,https://länsförsäkringar.se
+314,2026-06-12T22:01:49.056791,2026-06-06,Länsförsäkringar,3_ar,3 år,2.966,https://länsförsäkringar.se
+311,2026-06-12T22:01:49.042538,2026-06-06,Länsförsäkringar,3_man,3 månader,3.086,https://länsförsäkringar.se
+315,2026-06-12T22:01:49.061761,2026-06-06,Länsförsäkringar,5_ar,5 år,3.106,https://länsförsäkringar.se
+302,2026-06-12T22:01:48.998985,2026-06-06,Nordea,1_ar,1 år,3.166,https://nordea.se
+303,2026-06-12T22:01:49.003884,2026-06-06,Nordea,2_ar,2 år,3.126,https://nordea.se
+304,2026-06-12T22:01:49.008508,2026-06-06,Nordea,3_ar,3 år,3.076,https://nordea.se
+301,2026-06-12T22:01:48.994224,2026-06-06,Nordea,3_man,3 månader,3.186,https://nordea.se
+305,2026-06-12T22:01:49.013285,2026-06-06,Nordea,5_ar,5 år,3.266,https://nordea.se
+282,2026-06-12T22:01:48.891107,2026-06-06,SBAB,1_ar,1 år,3.066,https://sbab.se
+283,2026-06-12T22:01:48.896494,2026-06-06,SBAB,2_ar,2 år,3.036,https://sbab.se
+284,2026-06-12T22:01:48.902674,2026-06-06,SBAB,3_ar,3 år,2.996,https://sbab.se
+281,2026-06-12T22:01:48.885797,2026-06-06,SBAB,3_man,3 månader,3.106,https://sbab.se
+285,2026-06-12T22:01:48.910646,2026-06-06,SBAB,5_ar,5 år,3.136,https://sbab.se
+297,2026-06-12T22:01:48.974198,2026-06-06,SEB,1_ar,1 år,3.136,https://seb.se
+298,2026-06-12T22:01:48.979448,2026-06-06,SEB,2_ar,2 år,3.106,https://seb.se
+299,2026-06-12T22:01:48.984265,2026-06-06,SEB,3_ar,3 år,3.066,https://seb.se
+296,2026-06-12T22:01:48.968098,2026-06-06,SEB,3_man,3 månader,3.206,https://seb.se
+300,2026-06-12T22:01:48.988905,2026-06-06,SEB,5_ar,5 år,3.236,https://seb.se
+317,2026-06-12T22:01:49.071371,2026-06-06,Skandia,1_ar,1 år,3.076,https://skandia.se
+318,2026-06-12T22:01:49.076118,2026-06-06,Skandia,2_ar,2 år,3.046,https://skandia.se
+319,2026-06-12T22:01:49.080777,2026-06-06,Skandia,3_ar,3 år,2.986,https://skandia.se
+316,2026-06-12T22:01:49.066761,2026-06-06,Skandia,3_man,3 månader,3.126,https://skandia.se
+320,2026-06-12T22:01:49.086165,2026-06-06,Skandia,5_ar,5 år,3.146,https://skandia.se
+287,2026-06-12T22:01:48.921547,2026-06-06,Swedbank,1_ar,1 år,3.186,https://swedbank.se
+288,2026-06-12T22:01:48.926476,2026-06-06,Swedbank,2_ar,2 år,3.136,https://swedbank.se
+289,2026-06-12T22:01:48.931276,2026-06-06,Swedbank,3_ar,3 år,3.086,https://swedbank.se
+286,2026-06-12T22:01:48.916508,2026-06-06,Swedbank,3_man,3 månader,3.236,https://swedbank.se
+290,2026-06-12T22:01:48.936392,2026-06-06,Swedbank,5_ar,5 år,3.286,https://swedbank.se
+267,2026-06-12T22:01:48.814412,2026-06-05,Danske Bank,1_ar,1 år,3.093,https://danskebank.se
+268,2026-06-12T22:01:48.819463,2026-06-05,Danske Bank,2_ar,2 år,3.073,https://danskebank.se
+269,2026-06-12T22:01:48.824418,2026-06-05,Danske Bank,3_ar,3 år,3.023,https://danskebank.se
+266,2026-06-12T22:01:48.809211,2026-06-05,Danske Bank,3_man,3 månader,3.143,https://danskebank.se
+270,2026-06-12T22:01:48.829328,2026-06-05,Danske Bank,5_ar,5 år,3.173,https://danskebank.se
+252,2026-06-12T22:01:48.743198,2026-06-05,Handelsbanken,1_ar,1 år,3.093,https://handelsbanken.se
+253,2026-06-12T22:01:48.748315,2026-06-05,Handelsbanken,2_ar,2 år,3.073,https://handelsbanken.se
+254,2026-06-12T22:01:48.753206,2026-06-05,Handelsbanken,3_ar,3 år,3.043,https://handelsbanken.se
+251,2026-06-12T22:01:48.738562,2026-06-05,Handelsbanken,3_man,3 månader,3.173,https://handelsbanken.se
+255,2026-06-12T22:01:48.758053,2026-06-05,Handelsbanken,5_ar,5 år,3.193,https://handelsbanken.se
+272,2026-06-12T22:01:48.838927,2026-06-05,Länsförsäkringar,1_ar,1 år,3.043,https://länsförsäkringar.se
+273,2026-06-12T22:01:48.844054,2026-06-05,Länsförsäkringar,2_ar,2 år,3.013,https://länsförsäkringar.se
+274,2026-06-12T22:01:48.849387,2026-06-05,Länsförsäkringar,3_ar,3 år,2.973,https://länsförsäkringar.se
+271,2026-06-12T22:01:48.834350,2026-06-05,Länsförsäkringar,3_man,3 månader,3.093,https://länsförsäkringar.se
+275,2026-06-12T22:01:48.855282,2026-06-05,Länsförsäkringar,5_ar,5 år,3.113,https://länsförsäkringar.se
+262,2026-06-12T22:01:48.790697,2026-06-05,Nordea,1_ar,1 år,3.173,https://nordea.se
+263,2026-06-12T22:01:48.795192,2026-06-05,Nordea,2_ar,2 år,3.133,https://nordea.se
+264,2026-06-12T22:01:48.799831,2026-06-05,Nordea,3_ar,3 år,3.083,https://nordea.se
+261,2026-06-12T22:01:48.786055,2026-06-05,Nordea,3_man,3 månader,3.193,https://nordea.se
+265,2026-06-12T22:01:48.804607,2026-06-05,Nordea,5_ar,5 år,3.273,https://nordea.se
+242,2026-06-12T22:01:48.697340,2026-06-05,SBAB,1_ar,1 år,3.073,https://sbab.se
+243,2026-06-12T22:01:48.701846,2026-06-05,SBAB,2_ar,2 år,3.043,https://sbab.se
+244,2026-06-12T22:01:48.706414,2026-06-05,SBAB,3_ar,3 år,3.003,https://sbab.se
+241,2026-06-12T22:01:48.692729,2026-06-05,SBAB,3_man,3 månader,3.113,https://sbab.se
+245,2026-06-12T22:01:48.711225,2026-06-05,SBAB,5_ar,5 år,3.143,https://sbab.se
+257,2026-06-12T22:01:48.767360,2026-06-05,SEB,1_ar,1 år,3.143,https://seb.se
+258,2026-06-12T22:01:48.771896,2026-06-05,SEB,2_ar,2 år,3.113,https://seb.se
+259,2026-06-12T22:01:48.776611,2026-06-05,SEB,3_ar,3 år,3.073,https://seb.se
+256,2026-06-12T22:01:48.762778,2026-06-05,SEB,3_man,3 månader,3.213,https://seb.se
+260,2026-06-12T22:01:48.781426,2026-06-05,SEB,5_ar,5 år,3.243,https://seb.se
+277,2026-06-12T22:01:48.866025,2026-06-05,Skandia,1_ar,1 år,3.083,https://skandia.se
+278,2026-06-12T22:01:48.871282,2026-06-05,Skandia,2_ar,2 år,3.053,https://skandia.se
+279,2026-06-12T22:01:48.876183,2026-06-05,Skandia,3_ar,3 år,2.993,https://skandia.se
+276,2026-06-12T22:01:48.860587,2026-06-05,Skandia,3_man,3 månader,3.133,https://skandia.se
+280,2026-06-12T22:01:48.880780,2026-06-05,Skandia,5_ar,5 år,3.153,https://skandia.se
+247,2026-06-12T22:01:48.720344,2026-06-05,Swedbank,1_ar,1 år,3.193,https://swedbank.se
+248,2026-06-12T22:01:48.724965,2026-06-05,Swedbank,2_ar,2 år,3.143,https://swedbank.se
+249,2026-06-12T22:01:48.729606,2026-06-05,Swedbank,3_ar,3 år,3.093,https://swedbank.se
+246,2026-06-12T22:01:48.715832,2026-06-05,Swedbank,3_man,3 månader,3.243,https://swedbank.se
+250,2026-06-12T22:01:48.734004,2026-06-05,Swedbank,5_ar,5 år,3.293,https://swedbank.se
+227,2026-06-12T22:01:48.625927,2026-06-04,Danske Bank,1_ar,1 år,3.1,https://danskebank.se
+228,2026-06-12T22:01:48.630534,2026-06-04,Danske Bank,2_ar,2 år,3.08,https://danskebank.se
+229,2026-06-12T22:01:48.635421,2026-06-04,Danske Bank,3_ar,3 år,3.03,https://danskebank.se
+226,2026-06-12T22:01:48.621139,2026-06-04,Danske Bank,3_man,3 månader,3.15,https://danskebank.se
+230,2026-06-12T22:01:48.640309,2026-06-04,Danske Bank,5_ar,5 år,3.18,https://danskebank.se
+212,2026-06-12T22:01:48.552517,2026-06-04,Handelsbanken,1_ar,1 år,3.1,https://handelsbanken.se
+213,2026-06-12T22:01:48.557973,2026-06-04,Handelsbanken,2_ar,2 år,3.08,https://handelsbanken.se
+214,2026-06-12T22:01:48.562818,2026-06-04,Handelsbanken,3_ar,3 år,3.05,https://handelsbanken.se
+211,2026-06-12T22:01:48.547382,2026-06-04,Handelsbanken,3_man,3 månader,3.18,https://handelsbanken.se
+215,2026-06-12T22:01:48.567443,2026-06-04,Handelsbanken,5_ar,5 år,3.2,https://handelsbanken.se
+232,2026-06-12T22:01:48.649999,2026-06-04,Länsförsäkringar,1_ar,1 år,3.05,https://länsförsäkringar.se
+233,2026-06-12T22:01:48.654791,2026-06-04,Länsförsäkringar,2_ar,2 år,3.02,https://länsförsäkringar.se
+234,2026-06-12T22:01:48.659469,2026-06-04,Länsförsäkringar,3_ar,3 år,2.98,https://länsförsäkringar.se
+231,2026-06-12T22:01:48.645251,2026-06-04,Länsförsäkringar,3_man,3 månader,3.1,https://länsförsäkringar.se
+235,2026-06-12T22:01:48.663984,2026-06-04,Länsförsäkringar,5_ar,5 år,3.12,https://länsförsäkringar.se
+222,2026-06-12T22:01:48.601057,2026-06-04,Nordea,1_ar,1 år,3.18,https://nordea.se
+223,2026-06-12T22:01:48.605642,2026-06-04,Nordea,2_ar,2 år,3.14,https://nordea.se
+224,2026-06-12T22:01:48.610383,2026-06-04,Nordea,3_ar,3 år,3.09,https://nordea.se
+221,2026-06-12T22:01:48.596204,2026-06-04,Nordea,3_man,3 månader,3.2,https://nordea.se
+225,2026-06-12T22:01:48.615771,2026-06-04,Nordea,5_ar,5 år,3.28,https://nordea.se
+202,2026-06-12T22:01:48.503231,2026-06-04,SBAB,1_ar,1 år,3.08,https://sbab.se
+203,2026-06-12T22:01:48.508192,2026-06-04,SBAB,2_ar,2 år,3.05,https://sbab.se
+204,2026-06-12T22:01:48.513073,2026-06-04,SBAB,3_ar,3 år,3.01,https://sbab.se
+201,2026-06-12T22:01:48.498080,2026-06-04,SBAB,3_man,3 månader,3.12,https://sbab.se
+205,2026-06-12T22:01:48.517970,2026-06-04,SBAB,5_ar,5 år,3.15,https://sbab.se
+217,2026-06-12T22:01:48.576774,2026-06-04,SEB,1_ar,1 år,3.15,https://seb.se
+218,2026-06-12T22:01:48.581819,2026-06-04,SEB,2_ar,2 år,3.12,https://seb.se
+219,2026-06-12T22:01:48.586757,2026-06-04,SEB,3_ar,3 år,3.08,https://seb.se
+216,2026-06-12T22:01:48.572157,2026-06-04,SEB,3_man,3 månader,3.22,https://seb.se
+220,2026-06-12T22:01:48.591750,2026-06-04,SEB,5_ar,5 år,3.25,https://seb.se
+237,2026-06-12T22:01:48.673402,2026-06-04,Skandia,1_ar,1 år,3.09,https://skandia.se
+238,2026-06-12T22:01:48.678075,2026-06-04,Skandia,2_ar,2 år,3.06,https://skandia.se
+239,2026-06-12T22:01:48.683214,2026-06-04,Skandia,3_ar,3 år,3.0,https://skandia.se
+236,2026-06-12T22:01:48.668673,2026-06-04,Skandia,3_man,3 månader,3.14,https://skandia.se
+240,2026-06-12T22:01:48.687863,2026-06-04,Skandia,5_ar,5 år,3.16,https://skandia.se
+207,2026-06-12T22:01:48.528651,2026-06-04,Swedbank,1_ar,1 år,3.2,https://swedbank.se
+208,2026-06-12T22:01:48.533403,2026-06-04,Swedbank,2_ar,2 år,3.15,https://swedbank.se
+209,2026-06-12T22:01:48.537916,2026-06-04,Swedbank,3_ar,3 år,3.1,https://swedbank.se
+206,2026-06-12T22:01:48.522647,2026-06-04,Swedbank,3_man,3 månader,3.25,https://swedbank.se
+210,2026-06-12T22:01:48.542567,2026-06-04,Swedbank,5_ar,5 år,3.3,https://swedbank.se
+187,2026-06-12T22:01:48.432003,2026-06-03,Danske Bank,1_ar,1 år,3.092,https://danskebank.se
+188,2026-06-12T22:01:48.436589,2026-06-03,Danske Bank,2_ar,2 år,3.072,https://danskebank.se
+189,2026-06-12T22:01:48.441367,2026-06-03,Danske Bank,3_ar,3 år,3.022,https://danskebank.se
+186,2026-06-12T22:01:48.427245,2026-06-03,Danske Bank,3_man,3 månader,3.142,https://danskebank.se
+190,2026-06-12T22:01:48.446144,2026-06-03,Danske Bank,5_ar,5 år,3.172,https://danskebank.se
+172,2026-06-12T22:01:48.357203,2026-06-03,Handelsbanken,1_ar,1 år,3.092,https://handelsbanken.se
+173,2026-06-12T22:01:48.362155,2026-06-03,Handelsbanken,2_ar,2 år,3.072,https://handelsbanken.se
+174,2026-06-12T22:01:48.366969,2026-06-03,Handelsbanken,3_ar,3 år,3.042,https://handelsbanken.se
+171,2026-06-12T22:01:48.352198,2026-06-03,Handelsbanken,3_man,3 månader,3.172,https://handelsbanken.se
+175,2026-06-12T22:01:48.372054,2026-06-03,Handelsbanken,5_ar,5 år,3.192,https://handelsbanken.se
+192,2026-06-12T22:01:48.456374,2026-06-03,Länsförsäkringar,1_ar,1 år,3.042,https://länsförsäkringar.se
+193,2026-06-12T22:01:48.461425,2026-06-03,Länsförsäkringar,2_ar,2 år,3.012,https://länsförsäkringar.se
+194,2026-06-12T22:01:48.465923,2026-06-03,Länsförsäkringar,3_ar,3 år,2.972,https://länsförsäkringar.se
+191,2026-06-12T22:01:48.451169,2026-06-03,Länsförsäkringar,3_man,3 månader,3.092,https://länsförsäkringar.se
+195,2026-06-12T22:01:48.470583,2026-06-03,Länsförsäkringar,5_ar,5 år,3.112,https://länsförsäkringar.se
+182,2026-06-12T22:01:48.407587,2026-06-03,Nordea,1_ar,1 år,3.172,https://nordea.se
+183,2026-06-12T22:01:48.412691,2026-06-03,Nordea,2_ar,2 år,3.132,https://nordea.se
+184,2026-06-12T22:01:48.417619,2026-06-03,Nordea,3_ar,3 år,3.082,https://nordea.se
+181,2026-06-12T22:01:48.402325,2026-06-03,Nordea,3_man,3 månader,3.192,https://nordea.se
+185,2026-06-12T22:01:48.422444,2026-06-03,Nordea,5_ar,5 år,3.272,https://nordea.se
+162,2026-06-12T22:01:48.307460,2026-06-03,SBAB,1_ar,1 år,3.072,https://sbab.se
+163,2026-06-12T22:01:48.312418,2026-06-03,SBAB,2_ar,2 år,3.042,https://sbab.se
+164,2026-06-12T22:01:48.317493,2026-06-03,SBAB,3_ar,3 år,3.002,https://sbab.se
+161,2026-06-12T22:01:48.302127,2026-06-03,SBAB,3_man,3 månader,3.112,https://sbab.se
+165,2026-06-12T22:01:48.322456,2026-06-03,SBAB,5_ar,5 år,3.142,https://sbab.se
+177,2026-06-12T22:01:48.382039,2026-06-03,SEB,1_ar,1 år,3.142,https://seb.se
+178,2026-06-12T22:01:48.387016,2026-06-03,SEB,2_ar,2 år,3.112,https://seb.se
+179,2026-06-12T22:01:48.392433,2026-06-03,SEB,3_ar,3 år,3.072,https://seb.se
+176,2026-06-12T22:01:48.377213,2026-06-03,SEB,3_man,3 månader,3.212,https://seb.se
+180,2026-06-12T22:01:48.397331,2026-06-03,SEB,5_ar,5 år,3.242,https://seb.se
+197,2026-06-12T22:01:48.479679,2026-06-03,Skandia,1_ar,1 år,3.082,https://skandia.se
+198,2026-06-12T22:01:48.484263,2026-06-03,Skandia,2_ar,2 år,3.052,https://skandia.se
+199,2026-06-12T22:01:48.488706,2026-06-03,Skandia,3_ar,3 år,2.992,https://skandia.se
+196,2026-06-12T22:01:48.475125,2026-06-03,Skandia,3_man,3 månader,3.132,https://skandia.se
+200,2026-06-12T22:01:48.493415,2026-06-03,Skandia,5_ar,5 år,3.152,https://skandia.se
+167,2026-06-12T22:01:48.332241,2026-06-03,Swedbank,1_ar,1 år,3.192,https://swedbank.se
+168,2026-06-12T22:01:48.337385,2026-06-03,Swedbank,2_ar,2 år,3.142,https://swedbank.se
+169,2026-06-12T22:01:48.342191,2026-06-03,Swedbank,3_ar,3 år,3.092,https://swedbank.se
+166,2026-06-12T22:01:48.327355,2026-06-03,Swedbank,3_man,3 månader,3.242,https://swedbank.se
+170,2026-06-12T22:01:48.347062,2026-06-03,Swedbank,5_ar,5 år,3.292,https://swedbank.se
+147,2026-06-12T22:01:48.236068,2026-06-02,Danske Bank,1_ar,1 år,3.099,https://danskebank.se
+148,2026-06-12T22:01:48.240835,2026-06-02,Danske Bank,2_ar,2 år,3.079,https://danskebank.se
+149,2026-06-12T22:01:48.245762,2026-06-02,Danske Bank,3_ar,3 år,3.029,https://danskebank.se
+146,2026-06-12T22:01:48.230863,2026-06-02,Danske Bank,3_man,3 månader,3.149,https://danskebank.se
+150,2026-06-12T22:01:48.250653,2026-06-02,Danske Bank,5_ar,5 år,3.179,https://danskebank.se
+132,2026-06-12T22:01:48.164007,2026-06-02,Handelsbanken,1_ar,1 år,3.099,https://handelsbanken.se
+133,2026-06-12T22:01:48.168591,2026-06-02,Handelsbanken,2_ar,2 år,3.079,https://handelsbanken.se
+134,2026-06-12T22:01:48.173455,2026-06-02,Handelsbanken,3_ar,3 år,3.049,https://handelsbanken.se
+131,2026-06-12T22:01:48.159197,2026-06-02,Handelsbanken,3_man,3 månader,3.179,https://handelsbanken.se
+135,2026-06-12T22:01:48.178235,2026-06-02,Handelsbanken,5_ar,5 år,3.199,https://handelsbanken.se
+152,2026-06-12T22:01:48.259994,2026-06-02,Länsförsäkringar,1_ar,1 år,3.049,https://länsförsäkringar.se
+153,2026-06-12T22:01:48.264855,2026-06-02,Länsförsäkringar,2_ar,2 år,3.019,https://länsförsäkringar.se
+154,2026-06-12T22:01:48.269963,2026-06-02,Länsförsäkringar,3_ar,3 år,2.979,https://länsförsäkringar.se
+151,2026-06-12T22:01:48.255249,2026-06-02,Länsförsäkringar,3_man,3 månader,3.099,https://länsförsäkringar.se
+155,2026-06-12T22:01:48.274474,2026-06-02,Länsförsäkringar,5_ar,5 år,3.119,https://länsförsäkringar.se
+142,2026-06-12T22:01:48.212546,2026-06-02,Nordea,1_ar,1 år,3.179,https://nordea.se
+143,2026-06-12T22:01:48.216967,2026-06-02,Nordea,2_ar,2 år,3.139,https://nordea.se
+144,2026-06-12T22:01:48.221646,2026-06-02,Nordea,3_ar,3 år,3.089,https://nordea.se
+141,2026-06-12T22:01:48.207839,2026-06-02,Nordea,3_man,3 månader,3.199,https://nordea.se
+145,2026-06-12T22:01:48.226252,2026-06-02,Nordea,5_ar,5 år,3.279,https://nordea.se
+122,2026-06-12T22:01:48.115771,2026-06-02,SBAB,1_ar,1 år,3.079,https://sbab.se
+123,2026-06-12T22:01:48.120587,2026-06-02,SBAB,2_ar,2 år,3.049,https://sbab.se
+124,2026-06-12T22:01:48.125268,2026-06-02,SBAB,3_ar,3 år,3.009,https://sbab.se
+121,2026-06-12T22:01:48.111062,2026-06-02,SBAB,3_man,3 månader,3.119,https://sbab.se
+125,2026-06-12T22:01:48.129818,2026-06-02,SBAB,5_ar,5 år,3.149,https://sbab.se
+137,2026-06-12T22:01:48.188327,2026-06-02,SEB,1_ar,1 år,3.149,https://seb.se
+138,2026-06-12T22:01:48.193163,2026-06-02,SEB,2_ar,2 år,3.119,https://seb.se
+139,2026-06-12T22:01:48.198199,2026-06-02,SEB,3_ar,3 år,3.079,https://seb.se
+136,2026-06-12T22:01:48.183402,2026-06-02,SEB,3_man,3 månader,3.219,https://seb.se
+140,2026-06-12T22:01:48.202944,2026-06-02,SEB,5_ar,5 år,3.249,https://seb.se
+157,2026-06-12T22:01:48.283808,2026-06-02,Skandia,1_ar,1 år,3.089,https://skandia.se
+158,2026-06-12T22:01:48.288435,2026-06-02,Skandia,2_ar,2 år,3.059,https://skandia.se
+159,2026-06-12T22:01:48.293008,2026-06-02,Skandia,3_ar,3 år,2.999,https://skandia.se
+156,2026-06-12T22:01:48.279213,2026-06-02,Skandia,3_man,3 månader,3.139,https://skandia.se
+160,2026-06-12T22:01:48.297486,2026-06-02,Skandia,5_ar,5 år,3.159,https://skandia.se
+127,2026-06-12T22:01:48.139599,2026-06-02,Swedbank,1_ar,1 år,3.199,https://swedbank.se
+128,2026-06-12T22:01:48.144121,2026-06-02,Swedbank,2_ar,2 år,3.149,https://swedbank.se
+129,2026-06-12T22:01:48.149260,2026-06-02,Swedbank,3_ar,3 år,3.099,https://swedbank.se
+126,2026-06-12T22:01:48.134514,2026-06-02,Swedbank,3_man,3 månader,3.249,https://swedbank.se
+130,2026-06-12T22:01:48.154582,2026-06-02,Swedbank,5_ar,5 år,3.299,https://swedbank.se
+107,2026-06-12T22:01:48.044903,2026-06-01,Danske Bank,1_ar,1 år,3.106,https://danskebank.se
+108,2026-06-12T22:01:48.049483,2026-06-01,Danske Bank,2_ar,2 år,3.086,https://danskebank.se
+109,2026-06-12T22:01:48.054375,2026-06-01,Danske Bank,3_ar,3 år,3.036,https://danskebank.se
+106,2026-06-12T22:01:48.040284,2026-06-01,Danske Bank,3_man,3 månader,3.156,https://danskebank.se
+110,2026-06-12T22:01:48.059292,2026-06-01,Danske Bank,5_ar,5 år,3.186,https://danskebank.se
+92,2026-06-12T22:01:47.973699,2026-06-01,Handelsbanken,1_ar,1 år,3.106,https://handelsbanken.se
+93,2026-06-12T22:01:47.978480,2026-06-01,Handelsbanken,2_ar,2 år,3.086,https://handelsbanken.se
+94,2026-06-12T22:01:47.983152,2026-06-01,Handelsbanken,3_ar,3 år,3.056,https://handelsbanken.se
+91,2026-06-12T22:01:47.968713,2026-06-01,Handelsbanken,3_man,3 månader,3.186,https://handelsbanken.se
+95,2026-06-12T22:01:47.988054,2026-06-01,Handelsbanken,5_ar,5 år,3.206,https://handelsbanken.se
+112,2026-06-12T22:01:48.069039,2026-06-01,Länsförsäkringar,1_ar,1 år,3.056,https://länsförsäkringar.se
+113,2026-06-12T22:01:48.073832,2026-06-01,Länsförsäkringar,2_ar,2 år,3.026,https://länsförsäkringar.se
+114,2026-06-12T22:01:48.078556,2026-06-01,Länsförsäkringar,3_ar,3 år,2.986,https://länsförsäkringar.se
+111,2026-06-12T22:01:48.064094,2026-06-01,Länsförsäkringar,3_man,3 månader,3.106,https://länsförsäkringar.se
+115,2026-06-12T22:01:48.083190,2026-06-01,Länsförsäkringar,5_ar,5 år,3.126,https://länsförsäkringar.se
+102,2026-06-12T22:01:48.020978,2026-06-01,Nordea,1_ar,1 år,3.186,https://nordea.se
+103,2026-06-12T22:01:48.025650,2026-06-01,Nordea,2_ar,2 år,3.146,https://nordea.se
+104,2026-06-12T22:01:48.030276,2026-06-01,Nordea,3_ar,3 år,3.096,https://nordea.se
+101,2026-06-12T22:01:48.016230,2026-06-01,Nordea,3_man,3 månader,3.206,https://nordea.se
+105,2026-06-12T22:01:48.035489,2026-06-01,Nordea,5_ar,5 år,3.286,https://nordea.se
+82,2026-06-12T22:01:47.922808,2026-06-01,SBAB,1_ar,1 år,3.086,https://sbab.se
+83,2026-06-12T22:01:47.927562,2026-06-01,SBAB,2_ar,2 år,3.056,https://sbab.se
+84,2026-06-12T22:01:47.932143,2026-06-01,SBAB,3_ar,3 år,3.016,https://sbab.se
+81,2026-06-12T22:01:47.918188,2026-06-01,SBAB,3_man,3 månader,3.126,https://sbab.se
+85,2026-06-12T22:01:47.937305,2026-06-01,SBAB,5_ar,5 år,3.156,https://sbab.se
+97,2026-06-12T22:01:47.997504,2026-06-01,SEB,1_ar,1 år,3.156,https://seb.se
+98,2026-06-12T22:01:48.002329,2026-06-01,SEB,2_ar,2 år,3.126,https://seb.se
+99,2026-06-12T22:01:48.006988,2026-06-01,SEB,3_ar,3 år,3.086,https://seb.se
+96,2026-06-12T22:01:47.992636,2026-06-01,SEB,3_man,3 månader,3.226,https://seb.se
+100,2026-06-12T22:01:48.011637,2026-06-01,SEB,5_ar,5 år,3.256,https://seb.se
+117,2026-06-12T22:01:48.092622,2026-06-01,Skandia,1_ar,1 år,3.096,https://skandia.se
+118,2026-06-12T22:01:48.097034,2026-06-01,Skandia,2_ar,2 år,3.066,https://skandia.se
+119,2026-06-12T22:01:48.101707,2026-06-01,Skandia,3_ar,3 år,3.006,https://skandia.se
+116,2026-06-12T22:01:48.087895,2026-06-01,Skandia,3_man,3 månader,3.146,https://skandia.se
+120,2026-06-12T22:01:48.106326,2026-06-01,Skandia,5_ar,5 år,3.166,https://skandia.se
+87,2026-06-12T22:01:47.947185,2026-06-01,Swedbank,1_ar,1 år,3.206,https://swedbank.se
+88,2026-06-12T22:01:47.952137,2026-06-01,Swedbank,2_ar,2 år,3.156,https://swedbank.se
+89,2026-06-12T22:01:47.958584,2026-06-01,Swedbank,3_ar,3 år,3.106,https://swedbank.se
+86,2026-06-12T22:01:47.942057,2026-06-01,Swedbank,3_man,3 månader,3.256,https://swedbank.se
+90,2026-06-12T22:01:47.963682,2026-06-01,Swedbank,5_ar,5 år,3.306,https://swedbank.se
+67,2026-06-12T22:01:47.854983,2026-05-31,Danske Bank,1_ar,1 år,3.098,https://danskebank.se
+68,2026-06-12T22:01:47.859457,2026-05-31,Danske Bank,2_ar,2 år,3.078,https://danskebank.se
+69,2026-06-12T22:01:47.863779,2026-05-31,Danske Bank,3_ar,3 år,3.028,https://danskebank.se
+66,2026-06-12T22:01:47.850647,2026-05-31,Danske Bank,3_man,3 månader,3.148,https://danskebank.se
+70,2026-06-12T22:01:47.868192,2026-05-31,Danske Bank,5_ar,5 år,3.178,https://danskebank.se
+52,2026-06-12T22:01:47.786563,2026-05-31,Handelsbanken,1_ar,1 år,3.098,https://handelsbanken.se
+53,2026-06-12T22:01:47.791283,2026-05-31,Handelsbanken,2_ar,2 år,3.078,https://handelsbanken.se
+54,2026-06-12T22:01:47.796130,2026-05-31,Handelsbanken,3_ar,3 år,3.048,https://handelsbanken.se
+51,2026-06-12T22:01:47.781488,2026-05-31,Handelsbanken,3_man,3 månader,3.178,https://handelsbanken.se
+55,2026-06-12T22:01:47.800575,2026-05-31,Handelsbanken,5_ar,5 år,3.198,https://handelsbanken.se
+72,2026-06-12T22:01:47.877008,2026-05-31,Länsförsäkringar,1_ar,1 år,3.048,https://länsförsäkringar.se
+73,2026-06-12T22:01:47.881460,2026-05-31,Länsförsäkringar,2_ar,2 år,3.018,https://länsförsäkringar.se
+74,2026-06-12T22:01:47.885867,2026-05-31,Länsförsäkringar,3_ar,3 år,2.978,https://länsförsäkringar.se
+71,2026-06-12T22:01:47.872660,2026-05-31,Länsförsäkringar,3_man,3 månader,3.098,https://länsförsäkringar.se
+75,2026-06-12T22:01:47.890445,2026-05-31,Länsförsäkringar,5_ar,5 år,3.118,https://länsförsäkringar.se
+62,2026-06-12T22:01:47.832442,2026-05-31,Nordea,1_ar,1 år,3.178,https://nordea.se
+63,2026-06-12T22:01:47.836994,2026-05-31,Nordea,2_ar,2 år,3.138,https://nordea.se
+64,2026-06-12T22:01:47.841508,2026-05-31,Nordea,3_ar,3 år,3.088,https://nordea.se
+61,2026-06-12T22:01:47.827836,2026-05-31,Nordea,3_man,3 månader,3.198,https://nordea.se
+65,2026-06-12T22:01:47.846055,2026-05-31,Nordea,5_ar,5 år,3.278,https://nordea.se
+42,2026-06-12T22:01:47.734746,2026-05-31,SBAB,1_ar,1 år,3.078,https://sbab.se
+43,2026-06-12T22:01:47.739493,2026-05-31,SBAB,2_ar,2 år,3.048,https://sbab.se
+44,2026-06-12T22:01:47.746723,2026-05-31,SBAB,3_ar,3 år,3.008,https://sbab.se
+41,2026-06-12T22:01:47.730055,2026-05-31,SBAB,3_man,3 månader,3.118,https://sbab.se
+45,2026-06-12T22:01:47.751811,2026-05-31,SBAB,5_ar,5 år,3.148,https://sbab.se
+57,2026-06-12T22:01:47.809841,2026-05-31,SEB,1_ar,1 år,3.148,https://seb.se
+58,2026-06-12T22:01:47.814205,2026-05-31,SEB,2_ar,2 år,3.118,https://seb.se
+59,2026-06-12T22:01:47.818638,2026-05-31,SEB,3_ar,3 år,3.078,https://seb.se
+56,2026-06-12T22:01:47.805274,2026-05-31,SEB,3_man,3 månader,3.218,https://seb.se
+60,2026-06-12T22:01:47.823198,2026-05-31,SEB,5_ar,5 år,3.248,https://seb.se
+77,2026-06-12T22:01:47.899583,2026-05-31,Skandia,1_ar,1 år,3.088,https://skandia.se
+78,2026-06-12T22:01:47.904165,2026-05-31,Skandia,2_ar,2 år,3.058,https://skandia.se
+79,2026-06-12T22:01:47.908958,2026-05-31,Skandia,3_ar,3 år,2.998,https://skandia.se
+76,2026-06-12T22:01:47.894958,2026-05-31,Skandia,3_man,3 månader,3.138,https://skandia.se
+80,2026-06-12T22:01:47.913459,2026-05-31,Skandia,5_ar,5 år,3.158,https://skandia.se
+47,2026-06-12T22:01:47.761160,2026-05-31,Swedbank,1_ar,1 år,3.198,https://swedbank.se
+48,2026-06-12T22:01:47.766016,2026-05-31,Swedbank,2_ar,2 år,3.148,https://swedbank.se
+49,2026-06-12T22:01:47.772017,2026-05-31,Swedbank,3_ar,3 år,3.098,https://swedbank.se
+46,2026-06-12T22:01:47.756357,2026-05-31,Swedbank,3_man,3 månader,3.248,https://swedbank.se
+50,2026-06-12T22:01:47.776832,2026-05-31,Swedbank,5_ar,5 år,3.298,https://swedbank.se
+27,2026-06-12T22:01:47.664106,2026-05-30,Danske Bank,1_ar,1 år,3.105,https://danskebank.se
+28,2026-06-12T22:01:47.669097,2026-05-30,Danske Bank,2_ar,2 år,3.085,https://danskebank.se
+29,2026-06-12T22:01:47.673760,2026-05-30,Danske Bank,3_ar,3 år,3.035,https://danskebank.se
+26,2026-06-12T22:01:47.659423,2026-05-30,Danske Bank,3_man,3 månader,3.155,https://danskebank.se
+30,2026-06-12T22:01:47.678473,2026-05-30,Danske Bank,5_ar,5 år,3.185,https://danskebank.se
+12,2026-06-12T22:01:47.593999,2026-05-30,Handelsbanken,1_ar,1 år,3.105,https://handelsbanken.se
+13,2026-06-12T22:01:47.598711,2026-05-30,Handelsbanken,2_ar,2 år,3.085,https://handelsbanken.se
+14,2026-06-12T22:01:47.603600,2026-05-30,Handelsbanken,3_ar,3 år,3.055,https://handelsbanken.se
+11,2026-06-12T22:01:47.589004,2026-05-30,Handelsbanken,3_man,3 månader,3.185,https://handelsbanken.se
+15,2026-06-12T22:01:47.608169,2026-05-30,Handelsbanken,5_ar,5 år,3.205,https://handelsbanken.se
+32,2026-06-12T22:01:47.688288,2026-05-30,Länsförsäkringar,1_ar,1 år,3.055,https://länsförsäkringar.se
+33,2026-06-12T22:01:47.693024,2026-05-30,Länsförsäkringar,2_ar,2 år,3.025,https://länsförsäkringar.se
+34,2026-06-12T22:01:47.697472,2026-05-30,Länsförsäkringar,3_ar,3 år,2.985,https://länsförsäkringar.se
+31,2026-06-12T22:01:47.683522,2026-05-30,Länsförsäkringar,3_man,3 månader,3.105,https://länsförsäkringar.se
+35,2026-06-12T22:01:47.701939,2026-05-30,Länsförsäkringar,5_ar,5 år,3.125,https://länsförsäkringar.se
+22,2026-06-12T22:01:47.640378,2026-05-30,Nordea,1_ar,1 år,3.185,https://nordea.se
+23,2026-06-12T22:01:47.645156,2026-05-30,Nordea,2_ar,2 år,3.145,https://nordea.se
+24,2026-06-12T22:01:47.649957,2026-05-30,Nordea,3_ar,3 år,3.095,https://nordea.se
+21,2026-06-12T22:01:47.635556,2026-05-30,Nordea,3_man,3 månader,3.205,https://nordea.se
+25,2026-06-12T22:01:47.654575,2026-05-30,Nordea,5_ar,5 år,3.285,https://nordea.se
+2,2026-06-12T22:01:47.545242,2026-05-30,SBAB,1_ar,1 år,3.085,https://sbab.se
+3,2026-06-12T22:01:47.549992,2026-05-30,SBAB,2_ar,2 år,3.055,https://sbab.se
+4,2026-06-12T22:01:47.554792,2026-05-30,SBAB,3_ar,3 år,3.015,https://sbab.se
+1,2026-06-12T22:01:47.540292,2026-05-30,SBAB,3_man,3 månader,3.125,https://sbab.se
+5,2026-06-12T22:01:47.559820,2026-05-30,SBAB,5_ar,5 år,3.155,https://sbab.se
+17,2026-06-12T22:01:47.617386,2026-05-30,SEB,1_ar,1 år,3.155,https://seb.se
+18,2026-06-12T22:01:47.621769,2026-05-30,SEB,2_ar,2 år,3.125,https://seb.se
+19,2026-06-12T22:01:47.626146,2026-05-30,SEB,3_ar,3 år,3.085,https://seb.se
+16,2026-06-12T22:01:47.612853,2026-05-30,SEB,3_man,3 månader,3.225,https://seb.se
+20,2026-06-12T22:01:47.630916,2026-05-30,SEB,5_ar,5 år,3.255,https://seb.se
+37,2026-06-12T22:01:47.711203,2026-05-30,Skandia,1_ar,1 år,3.095,https://skandia.se
+38,2026-06-12T22:01:47.715804,2026-05-30,Skandia,2_ar,2 år,3.065,https://skandia.se
+39,2026-06-12T22:01:47.720634,2026-05-30,Skandia,3_ar,3 år,3.005,https://skandia.se
+36,2026-06-12T22:01:47.706471,2026-05-30,Skandia,3_man,3 månader,3.145,https://skandia.se
+40,2026-06-12T22:01:47.725579,2026-05-30,Skandia,5_ar,5 år,3.165,https://skandia.se
+7,2026-06-12T22:01:47.570164,2026-05-30,Swedbank,1_ar,1 år,3.205,https://swedbank.se
+8,2026-06-12T22:01:47.574991,2026-05-30,Swedbank,2_ar,2 år,3.155,https://swedbank.se
+9,2026-06-12T22:01:47.579611,2026-05-30,Swedbank,3_ar,3 år,3.105,https://swedbank.se
+6,2026-06-12T22:01:47.565057,2026-05-30,Swedbank,3_man,3 månader,3.255,https://swedbank.se
+10,2026-06-12T22:01:47.584175,2026-05-30,Swedbank,5_ar,5 år,3.305,https://swedbank.se

@@ -1,0 +1,2 @@
+id,created_at,warning_date,category,bank,period_key,message,severity,acknowledged
+1,2026-06-12T22:02:05.683082,2026-06-12,DISCOUNT_SHRINKING,Handelsbanken,3_ar,Handelsbanken (3_ar): din rabatt mot listräntan har minskat med 0.12 pp (från 0.12 pp till 0.00 pp),WARNING,0

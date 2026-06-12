@@ -1,0 +1,84 @@
+name: Daglig ränteinhämtning
+
+on:
+  schedule:
+    # Kör 07:00 svensk tid (05:00 UTC sommartid, 06:00 UTC vintertid)
+    # Två rader täcker båda:
+    - cron: '0 5 * * *'   # sommartid (CEST = UTC+2)
+    - cron: '0 6 * * *'   # vintertid (CET  = UTC+1)
+  workflow_dispatch:       # Kan även köras manuellt via GitHub-webbsidan
+
+jobs:
+  collect:
+    name: Samla in räntor
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # Tillåter att committa data tillbaka till repot
+
+    steps:
+      # ── Hämta koden ────────────────────────────────────────────────────────
+      - name: Checka ut repot
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Behövs för att kunna pusha tillbaka
+
+      # ── Installera Python ──────────────────────────────────────────────────
+      - name: Sätt upp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Installera beroenden
+        run: pip install -r requirements.txt
+
+      # ── Återställ databasen från senaste sparade version ───────────────────
+      - name: Packa upp databas
+        run: |
+          if [ -f data/borantor.db.gz ]; then
+            gunzip -k data/borantor.db.gz
+            echo "Databas återställd från komprimerad fil"
+          else
+            echo "Ingen befintlig databas – startar från scratch"
+          fi
+
+      # ── Samla in data ──────────────────────────────────────────────────────
+      - name: Samla in räntor
+        run: python main.py collect
+        continue-on-error: true   # Fortsätt även om några banker misslyckas
+
+      - name: Kör varningskontroller
+        run: python main.py warnings
+        continue-on-error: true
+
+      - name: Exportera Excel-rapport
+        run: python main.py export
+        continue-on-error: true
+
+      # ── Exportera data till CSV (git-vänligt format) ───────────────────────
+      - name: Exportera data till CSV
+        run: python scripts/export_csv.py
+        continue-on-error: true
+
+      # ── Komprimera och spara databas ───────────────────────────────────────
+      - name: Komprimera databas
+        run: |
+          if [ -f data/borantor.db ]; then
+            gzip -c data/borantor.db > data/borantor.db.gz
+            echo "Databas komprimerad"
+          fi
+
+      # ── Committa uppdaterad data tillbaka till repot ───────────────────────
+      - name: Committa data
+        run: |
+          git config user.name  "Boränteagent"
+          git config user.email "bot@borantor-agent"
+          git add data/borantor.db.gz data/export/ data/*.xlsx || true
+          # Committa bara om det finns ändringar
+          if git diff --staged --quiet; then
+            echo "Ingen ny data att committa"
+          else
+            DATUM=$(date +"%Y-%m-%d")
+            git commit -m "Data: daglig insamling $DATUM"
+            git push
+          fi
