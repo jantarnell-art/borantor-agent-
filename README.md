@@ -37,8 +37,11 @@ python main.py backfill
 # Samla in aktuella räntor
 python main.py collect
 
-# Visa dashboard i terminalen
+# Visa terminal-dashboard
 python main.py dashboard
+
+# Starta webb-dashboard i webbläsaren (http://localhost:8501)
+streamlit run dashboard/web_app.py
 
 # Exportera Excel-rapport
 python main.py export
@@ -49,7 +52,7 @@ python main.py warnings
 # Registrera eget erbjudande (interaktivt)
 python main.py add-offer
 
-# Kör allt på en gång (collect + warnings + export + dashboard)
+# Kör allt på en gång (collect + warnings + export + terminal-dashboard)
 python main.py run
 ```
 
