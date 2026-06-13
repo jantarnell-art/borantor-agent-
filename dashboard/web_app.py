@@ -76,8 +76,24 @@ if not _check_password():
     st.stop()
 
 
-# Initiera databas vid start
-db.init_db()
+# ── Initiera databas ──────────────────────────────────────────────────────────
+# På Streamlit Cloud finns databasen som komprimerad fil i repot.
+# Vi packar upp den automatiskt om den inte redan finns.
+
+def _init_database() -> None:
+    root = Path(__file__).parent.parent
+    db_path = root / "data" / "borantor.db"
+    db_gz_path = root / "data" / "borantor.db.gz"
+
+    if not db_path.exists() and db_gz_path.exists():
+        import gzip, shutil
+        with gzip.open(db_gz_path, "rb") as f_in:
+            with open(db_path, "wb") as f_out:
+                shutil.copyfileobj(f_in, f_out)
+
+    db.init_db()
+
+_init_database()
 
 
 # ── Hjälpfunktioner ───────────────────────────────────────────────────────────
