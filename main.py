@@ -34,7 +34,7 @@ logger = logging.getLogger("borantor")
 # ── Collectors registry ───────────────────────────────────────────────────────
 
 def _build_collectors():
-    from collectors.finansportalen import FinansportalenCollector
+    from collectors.multi_source import MultiSourceCollector
     from collectors.sbab import SBABCollector
     from collectors.swedbank import SwedbankCollector
     from collectors.handelsbanken import HandelsbankenCollector
@@ -45,9 +45,9 @@ def _build_collectors():
     from collectors.skandia import SkandiaCollector
 
     return [
-        # Finansportalen hämtar alla banker på en gång (Playwright-baserad)
-        FinansportalenCollector(),
-        # Bankspecifika som komplement/fallback
+        # Multi-source provar Finansportalen, Boräntor.nu, Compricer automatiskt
+        MultiSourceCollector(),
+        # Bankspecifika som komplement
         SBABCollector(),
         SwedbankCollector(),
         HandelsbankenCollector(),
