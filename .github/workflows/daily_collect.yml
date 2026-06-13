@@ -47,21 +47,26 @@ jobs:
       # ── Samla in räntor ───────────────────────────────────────────────────────
       - name: Testa nätverksåtkomst
         run: |
+          TODAY=$(date +%Y-%m-%d)
+          MONTH_AGO=$(date -d '30 days ago' +%Y-%m-%d)
           echo "=== Testar Riksbanken API ==="
           curl -s -o /dev/null -w "Riksbanken API: %{http_code}\n" \
-            "https://api.riksbank.se/swea/v1/observations/SECBREPOEFF/2026-06-01/2026-06-13" || true
+            "https://api.riksbank.se/swea/v1/observations/SECBREPOEFF/${MONTH_AGO}/${TODAY}" || true
           echo "=== Testar Finansportalen ==="
           curl -s -o /dev/null -w "Finansportalen: %{http_code}\n" \
             "https://www.finansportalen.se/bank/bolan/" || true
-          echo "=== Testar SBAB ==="
-          curl -s -o /dev/null -w "SBAB: %{http_code}\n" \
-            "https://www.sbab.se/1/privat/bolan/rantor.html" || true
+          echo "=== Testar Compricer ==="
+          curl -s -o /dev/null -w "Compricer: %{http_code}\n" \
+            "https://www.compricer.se/bolan/" || true
 
       - name: Samla in bankräntor
         run: python main.py collect
         continue-on-error: true
 
-      - name: Samla in referensräntor (Riksbanken API)
+      # Backfill (365 dagar historik) körs bara vid manuell körning
+      # – daglig collect hämtar redan de senaste 14 dagarna
+      - name: Samla in historiska referensräntor (backfill)
+        if: github.event_name == 'workflow_dispatch'
         run: python main.py backfill
         continue-on-error: true
 
@@ -89,10 +94,12 @@ jobs:
         run: |
           git config user.name  "Boränteagent"
           git config user.email "bot@borantor-agent"
-          git add data/borantor.db.gz data/export/ data/*.xlsx || true
+          git add data/borantor.db.gz data/export/ || true
           if git diff --staged --quiet; then
             echo "Ingen ny data"
           else
             git commit -m "Data: daglig insamling $(date +%Y-%m-%d)"
-            git push
+            # Hämta eventuella kodändringar som pushats under körningen
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push origin "${GITHUB_REF_NAME}"
           fi

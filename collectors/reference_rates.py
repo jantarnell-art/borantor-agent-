@@ -31,20 +31,30 @@ SERIES_LABELS = {
 
 
 def _fetch_series(series_id: str, from_date: date, to_date: date) -> Optional[list[dict]]:
+    import time
     url = f"{RIKSBANK_API}/observations/{series_id}/{from_date}/{to_date}"
-    try:
-        resp = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
-        if resp.status_code == 404:
-            logger.warning("Series %s not found in Riksbanken API", series_id)
+    for attempt in range(1, 4):
+        try:
+            resp = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
+            if resp.status_code == 404:
+                logger.warning("Series %s not found in Riksbanken API", series_id)
+                return None
+            if resp.status_code == 429:
+                wait = 5 * attempt
+                logger.warning("Riksbanken rate limit for %s, väntar %ds", series_id, wait)
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            time.sleep(0.3)  # artigt mellanrum mellan API-anrop
+            return resp.json()
+        except requests.RequestException as exc:
+            logger.error("Riksbanken API error for %s: %s", series_id, exc)
             return None
-        resp.raise_for_status()
-        return resp.json()
-    except requests.RequestException as exc:
-        logger.error("Riksbanken API error for %s: %s", series_id, exc)
-        return None
-    except ValueError as exc:
-        logger.error("JSON decode error for %s: %s", series_id, exc)
-        return None
+        except ValueError as exc:
+            logger.error("JSON decode error for %s: %s", series_id, exc)
+            return None
+    logger.error("Riksbanken API: max retries för %s", series_id)
+    return None
 
 
 def collect_latest_reference_rates() -> list[dict]:
