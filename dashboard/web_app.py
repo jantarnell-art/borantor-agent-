@@ -36,6 +36,46 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+
+# ── Lösenordsskydd ────────────────────────────────────────────────────────────
+
+def _check_password() -> bool:
+    """
+    Returnerar True om användaren angett rätt lösenord.
+    Lösenordet hämtas från .streamlit/secrets.toml (lokalt)
+    eller Streamlit Cloud Settings → Secrets (i produktion).
+    """
+    try:
+        correct = st.secrets["password"]
+    except (KeyError, FileNotFoundError):
+        # Ingen secrets-fil = öppen åtkomst (t.ex. lokal utveckling utan lösenord)
+        return True
+
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if st.session_state.authenticated:
+        return True
+
+    # Visa inloggningssida
+    col1, col2, col3 = st.columns([1, 1.5, 1])
+    with col2:
+        st.markdown("## 🏠 Boränteagent Sverige")
+        st.markdown("Ange lösenord för att fortsätta.")
+        pwd = st.text_input("Lösenord", type="password", key="pwd_input")
+        if st.button("Logga in", use_container_width=True):
+            if pwd == correct:
+                st.session_state.authenticated = True
+                st.rerun()
+            else:
+                st.error("Fel lösenord – försök igen.")
+    return False
+
+
+if not _check_password():
+    st.stop()
+
+
 # Initiera databas vid start
 db.init_db()
 

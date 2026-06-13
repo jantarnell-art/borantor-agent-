@@ -17,3 +17,5 @@ data/*.xlsx
 # data/export/  <-- spåras avsiktligt
 *.log
 .DS_Store
+# Streamlit-hemligheter – ska ALDRIG committas
+.streamlit/secrets.toml
