@@ -34,6 +34,7 @@ logger = logging.getLogger("borantor")
 # ── Collectors registry ───────────────────────────────────────────────────────
 
 def _build_collectors():
+    from collectors.compricer import CompricerCollector
     from collectors.multi_source import MultiSourceCollector
     from collectors.sbab import SBABCollector
     from collectors.swedbank import SwedbankCollector
@@ -45,7 +46,9 @@ def _build_collectors():
     from collectors.skandia import SkandiaCollector
 
     return [
-        # Multi-source provar Finansportalen, Boräntor.nu, Compricer automatiskt
+        # Primär: Compricer med full extraktion (Next.js JSON + div-tabell + HTML-tabell)
+        CompricerCollector(),
+        # Fallback: Finansportalen, Bolaneinfo
         MultiSourceCollector(),
         # Bankspecifika som komplement
         SBABCollector(),

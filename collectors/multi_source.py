@@ -48,9 +48,8 @@ BANK_ALIASES = {
     "aros": "Aros Kapital",
 }
 
-# Sidor att prova – i prioritetsordning (Compricer verifierat fungerar)
+# Generiska fallback-källor – Compricer hanteras av CompricerCollector
 SOURCES = [
-    ("Compricer",      "https://www.compricer.se/bolan/"),
     ("Finansportalen", "https://www.finansportalen.se/bolan/"),
     ("Bolaneinfo",     "https://www.bolaneinfo.se/"),
 ]
