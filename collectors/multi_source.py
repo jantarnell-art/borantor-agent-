@@ -21,11 +21,12 @@ from config import BINDING_PERIODS
 logger = logging.getLogger(__name__)
 
 PERIOD_MAP = {
-    "3 mån": "3_man", "3 månader": "3_man", "3mån": "3_man",
-    "1 år": "1_ar",   "1år": "1_ar",
-    "2 år": "2_ar",   "2år": "2_ar",
-    "3 år": "3_ar",   "3år": "3_ar",
-    "5 år": "5_ar",   "5år": "5_ar",
+    "3 mån": "3_man", "3 månader": "3_man", "3mån": "3_man", "3 månader": "3_man",
+    "rörlig": "3_man",  # rörlig ränta ≈ 3 mån
+    "1 år": "1_ar",   "1år": "1_ar",   "12 mån": "1_ar", "12 månader": "1_ar",
+    "2 år": "2_ar",   "2år": "2_ar",   "24 mån": "2_ar",
+    "3 år": "3_ar",   "3år": "3_ar",   "36 mån": "3_ar",
+    "5 år": "5_ar",   "5år": "5_ar",   "60 mån": "5_ar",
 }
 
 BANK_ALIASES = {
@@ -37,17 +38,21 @@ BANK_ALIASES = {
     "danske": "Danske Bank",
     "länsförsäkringar": "Länsförsäkringar",
     "lf bank": "Länsförsäkringar",
+    "länsförs": "Länsförsäkringar",
     "skandia": "Skandia",
     "hypoteket": "Hypoteket",
     "stabelo": "Stabelo",
     "ica banken": "ICA Banken",
+    "ica bank": "ICA Banken",
+    "bluestep": "Bluestep",
+    "aros": "Aros Kapital",
 }
 
-# Sidor att prova – i prioritetsordning
+# Sidor att prova – i prioritetsordning (Compricer verifierat fungerar)
 SOURCES = [
-    ("Finansportalen", "https://www.finansportalen.se/bank/bolan/"),
-    ("Boräntor.nu",    "https://www.borantor.nu/"),
     ("Compricer",      "https://www.compricer.se/bolan/"),
+    ("Finansportalen", "https://www.finansportalen.se/bolan/"),
+    ("Bolaneinfo",     "https://www.bolaneinfo.se/"),
 ]
 
 
@@ -60,7 +65,10 @@ class MultiSourceCollector(BaseCollector):
             logger.info("Provar källa: %s (%s)", name, url)
             results = self._try_source(name, url)
             if results:
-                logger.info("✓ %s: %d räntor hämtade", name, len(results))
+                banks = sorted({r.bank for r in results})
+                periods = sorted({r.period_key for r in results})
+                logger.info("✓ %s: %d räntor hämtade – banker: %s | perioder: %s",
+                            name, len(results), ", ".join(banks), ", ".join(periods))
                 return results
             logger.warning("✗ %s: inga räntor hittade", name)
         logger.error("Alla källor misslyckades")
