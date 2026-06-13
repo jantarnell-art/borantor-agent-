@@ -135,7 +135,7 @@ with st.sidebar:
     st.divider()
     page = st.radio(
         "Navigering",
-        ["Marknadsöversikt", "Historiska trender", "Min lånesituation", "Referensräntor", "Varningar"],
+        ["Marknadsöversikt", "Historiska trender", "Min lånesituation", "Referensräntor", "Varningar", "➕ Mata in räntor"],
         label_visibility="collapsed",
     )
     st.divider()
@@ -605,6 +605,145 @@ elif page == "Varningar":
                     st.caption(f"Bank: {w['bank'] or '–'}")
                     st.caption(f"Period: {w['period_key'] or '–'}")
                     st.caption(f"Datum: {w['warning_date']}")
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# SIDA 6: Mata in räntor manuellt
+# ══════════════════════════════════════════════════════════════════════════════
+
+elif page == "➕ Mata in räntor":
+    st.title("➕ Mata in räntor")
+    st.markdown("Ange räntor direkt från bankernas hemsidor eller appar.")
+
+    tab1, tab2 = st.tabs(["📊 Listräntor", "🏠 Mitt erbjudande"])
+
+    # ── Flik 1: Listräntor ────────────────────────────────────────────────────
+    with tab1:
+        st.subheader("Ange listränta för en bank")
+        st.caption("Hämta räntorna från bankens hemsida och ange dem här.")
+
+        with st.form("form_listrantor"):
+            col1, col2 = st.columns(2)
+            with col1:
+                bank_val = st.selectbox("Bank", options=list(db.init_db() or []) or [
+                    "SBAB", "Swedbank", "Handelsbanken", "SEB",
+                    "Nordea", "Danske Bank", "Länsförsäkringar", "Skandia",
+                ])
+            with col2:
+                rate_date_val = st.date_input("Datum", value=__import__('datetime').date.today())
+
+            st.markdown("**Räntor (lämna blankt om okänd)**")
+            c1, c2, c3, c4, c5 = st.columns(5)
+            r_3m  = c1.text_input("3 mån",  placeholder="3.12")
+            r_1ar = c2.text_input("1 år",   placeholder="3.08")
+            r_2ar = c3.text_input("2 år",   placeholder="3.05")
+            r_3ar = c4.text_input("3 år",   placeholder="3.01")
+            r_5ar = c5.text_input("5 år",   placeholder="3.15")
+
+            submitted = st.form_submit_button("💾 Spara", use_container_width=True, type="primary")
+
+        if submitted:
+            from storage.database import upsert_list_rate
+            import datetime
+
+            entries = {
+                "3_man": ("3 månader", r_3m),
+                "1_ar":  ("1 år",     r_1ar),
+                "2_ar":  ("2 år",     r_2ar),
+                "3_ar":  ("3 år",     r_3ar),
+                "5_ar":  ("5 år",     r_5ar),
+            }
+            saved = 0
+            errors = []
+            for pk, (plabel, raw) in entries.items():
+                if not raw.strip():
+                    continue
+                try:
+                    rate_f = float(raw.strip().replace(",", "."))
+                    if not 0 < rate_f < 25:
+                        raise ValueError
+                    upsert_list_rate(rate_date_val, bank_val, pk, plabel, rate_f, "Manuell inmatning")
+                    saved += 1
+                except ValueError:
+                    errors.append(f"{plabel}: '{raw}' är inte ett giltigt tal")
+
+            if saved:
+                st.success(f"✅ {saved} räntor sparade för {bank_val} ({rate_date_val})")
+                st.cache_data.clear()
+            for e in errors:
+                st.error(e)
+
+        # Visa senaste inmatade
+        st.divider()
+        st.subheader("Senast inmatade listräntor")
+        latest = db.get_latest_list_rates()
+        if latest:
+            import pandas as pd
+            df_l = pd.DataFrame(latest)[["rate_date","bank","period_label","rate","source_url"]]
+            df_l.columns = ["Datum","Bank","Bindningstid","Ränta (%)","Källa"]
+            st.dataframe(df_l, use_container_width=True, hide_index=True)
+        else:
+            st.info("Inga listräntor inmatade ännu.")
+
+    # ── Flik 2: Mitt erbjudande ───────────────────────────────────────────────
+    with tab2:
+        st.subheader("Registrera eget erbjudande")
+        st.caption("Ange ett erbjudande du fått från en bank.")
+
+        with st.form("form_erbjudande"):
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                e_bank = st.selectbox("Bank", [
+                    "SBAB","Swedbank","Handelsbanken","SEB",
+                    "Nordea","Danske Bank","Länsförsäkringar","Skandia",
+                ], key="e_bank")
+            with col2:
+                e_period = st.selectbox("Bindningstid", list(BINDING_PERIODS.keys()),
+                    format_func=lambda k: BINDING_PERIODS[k], key="e_period")
+            with col3:
+                e_date = st.date_input("Datum", value=__import__('datetime').date.today(), key="e_date")
+
+            col4, col5 = st.columns(2)
+            with col4:
+                e_rate = st.text_input("Erbjuden ränta (%)", placeholder="2.95")
+            with col5:
+                e_loan = st.text_input("Lånebelopp (kr)", placeholder="3000000")
+
+            e_comment = st.text_input("Kommentar", placeholder="Efter förhandling via telefon")
+            e_source  = st.text_input("Källa", placeholder="Kundtjänst / app / möte")
+
+            e_submit = st.form_submit_button("💾 Spara erbjudande", use_container_width=True, type="primary")
+
+        if e_submit:
+            from storage.database import insert_my_offer, get_latest_list_rates
+            from analysis.calculator import discount_vs_list
+
+            try:
+                rate_f = float(e_rate.strip().replace(",", "."))
+                loan_i = int(e_loan.strip().replace(" ", "").replace(",", "")) if e_loan.strip() else None
+                ll = {(r["bank"], r["period_key"]): r["rate"] for r in get_latest_list_rates()}
+                disc = discount_vs_list(rate_f, ll[(e_bank, e_period)]) if (e_bank, e_period) in ll else None
+                insert_my_offer(
+                    offer_date=e_date,
+                    bank=e_bank,
+                    period_key=e_period,
+                    period_label=BINDING_PERIODS[e_period],
+                    offered_rate=rate_f,
+                    loan_amount=loan_i,
+                    discount_vs_list=disc,
+                    comment=e_comment or None,
+                    source=e_source or None,
+                )
+                st.success(f"✅ Erbjudande från {e_bank} sparat!")
+                if disc is not None:
+                    color = "green" if disc > 0 else "red"
+                    st.markdown(f"Din rabatt mot listräntan: **:{color}[{disc:+.2f} pp]**")
+                if loan_i:
+                    from analysis.calculator import monthly_cost
+                    st.info(f"Räntekostnad: {monthly_cost(loan_i, rate_f):,.0f} kr/månad")
+                st.cache_data.clear()
+            except Exception as exc:
+                st.error(f"Fel: {exc} – kontrollera att räntan är ett tal (ex: 2.95)")
 
 
 # ── Footer ────────────────────────────────────────────────────────────────────
