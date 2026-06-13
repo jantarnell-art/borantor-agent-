@@ -86,6 +86,8 @@ class CompricerCollector(BaseCollector):
             logger.error("Compricer: kunde inte hämta sidan")
             return []
 
+        self._log_html_diagnostics(html)
+
         # Strategy 1: Next.js __NEXT_DATA__
         results = self._from_next_data(html)
         if results:
@@ -108,6 +110,29 @@ class CompricerCollector(BaseCollector):
         else:
             logger.warning("Compricer: inga räntor hittades i någon strategi")
         return results
+
+    def _log_html_diagnostics(self, html: str) -> None:
+        """Log key structural info about the fetched HTML to aid debugging."""
+        import re
+        logger.info("Compricer HTML: %d chars", len(html))
+        logger.info("Compricer __NEXT_DATA__: %s", "JA" if "__NEXT_DATA__" in html else "NEJ")
+        tables = len(re.findall(r"<table", html, re.I))
+        logger.info("Compricer <table>-element: %d", tables)
+        # Find div class names containing rate-related words
+        rate_divs = re.findall(
+            r'class=["\']([^"\']*(?:product|offer|rate|loan|bolan|ranta|ränta|row|card|list)[^"\']*)["\']',
+            html, re.I
+        )
+        if rate_divs:
+            unique = sorted(set(rate_divs))[:10]
+            logger.info("Compricer relevanta div-klasser: %s", " | ".join(unique))
+        else:
+            logger.info("Compricer: inga relevanta div-klasser hittades")
+        # Log bank name occurrences to confirm page has rate data
+        for bank in ["Handelsbanken", "Swedbank", "Nordea", "SBAB", "SEB", "Skandia"]:
+            count = html.lower().count(bank.lower())
+            if count:
+                logger.info("Compricer: '%s' nämns %d gånger i HTML", bank, count)
 
     # ── Fetching ─────────────────────────────────────────────────────────────
 
