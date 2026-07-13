@@ -1,4 +1,5 @@
 id,created_at,warning_date,category,bank,period_key,message,severity,acknowledged
+5,2026-07-13T08:13:52.200102,2026-07-13,BANK_MARGIN_INCREASING,Danske Bank,5_ar,"Danske Bank (5_ar): bankens marginal har ökat med 0.22 pp de senaste 30 dagarna (listränta +0.22 pp, styrränta +0.00 pp)",WARNING,0
 4,2026-07-12T08:27:29.316266,2026-07-12,BANK_MARGIN_INCREASING,Danske Bank,5_ar,"Danske Bank (5_ar): bankens marginal har ökat med 0.22 pp de senaste 30 dagarna (listränta +0.22 pp, styrränta +0.00 pp)",WARNING,0
 3,2026-07-12T07:27:08.946265,2026-07-12,BANK_MARGIN_INCREASING,Danske Bank,5_ar,"Danske Bank (5_ar): bankens marginal har ökat med 0.22 pp de senaste 30 dagarna (listränta +0.22 pp, styrränta +0.00 pp)",WARNING,0
 2,2026-07-11T08:06:36.907976,2026-07-11,BANK_MARGIN_INCREASING,Skandia,3_man,"Skandia (3_man): bankens marginal har ökat med 0.91 pp de senaste 30 dagarna (listränta +0.91 pp, styrränta +0.00 pp)",WARNING,0
