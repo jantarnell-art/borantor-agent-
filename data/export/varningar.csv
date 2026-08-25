@@ -1,4 +1,7 @@
 id,created_at,warning_date,category,bank,period_key,message,severity,acknowledged
+188,2026-08-25T06:58:51.122420,2026-08-25,BANK_MARGIN_INCREASING,Skandia,2_ar,"Skandia (2_ar): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
+187,2026-08-25T06:58:51.120311,2026-08-25,BANK_MARGIN_INCREASING,Skandia,1_ar,"Skandia (1_ar): bankens marginal har ökat med 0.19 pp de senaste 30 dagarna (listränta +0.19 pp, styrränta +0.00 pp)",WARNING,0
+186,2026-08-25T06:58:51.118378,2026-08-25,BANK_MARGIN_INCREASING,ICA Banken,2_ar,"ICA Banken (2_ar): bankens marginal har ökat med 0.20 pp de senaste 30 dagarna (listränta +0.20 pp, styrränta +0.00 pp)",WARNING,0
 185,2026-08-25T05:26:54.649311,2026-08-25,BANK_MARGIN_INCREASING,Skandia,2_ar,"Skandia (2_ar): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
 184,2026-08-25T05:26:54.647775,2026-08-25,BANK_MARGIN_INCREASING,Skandia,1_ar,"Skandia (1_ar): bankens marginal har ökat med 0.19 pp de senaste 30 dagarna (listränta +0.19 pp, styrränta +0.00 pp)",WARNING,0
 183,2026-08-25T05:26:54.646068,2026-08-25,BANK_MARGIN_INCREASING,ICA Banken,2_ar,"ICA Banken (2_ar): bankens marginal har ökat med 0.20 pp de senaste 30 dagarna (listränta +0.20 pp, styrränta +0.00 pp)",WARNING,0
