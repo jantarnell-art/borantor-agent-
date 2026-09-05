@@ -1,4 +1,5 @@
 id,created_at,warning_date,category,bank,period_key,message,severity,acknowledged
+213,2026-09-05T08:46:25.423587,2026-09-05,BANK_MARGIN_INCREASING,ICA Banken,2_ar,"ICA Banken (2_ar): bankens marginal har ökat med 0.20 pp de senaste 30 dagarna (listränta +0.20 pp, styrränta +0.00 pp)",WARNING,0
 212,2026-09-04T11:00:53.655493,2026-09-04,BANK_MARGIN_INCREASING,ICA Banken,2_ar,"ICA Banken (2_ar): bankens marginal har ökat med 0.20 pp de senaste 30 dagarna (listränta +0.20 pp, styrränta +0.00 pp)",WARNING,0
 211,2026-09-04T09:16:58.442392,2026-09-04,BANK_MARGIN_INCREASING,ICA Banken,2_ar,"ICA Banken (2_ar): bankens marginal har ökat med 0.20 pp de senaste 30 dagarna (listränta +0.20 pp, styrränta +0.00 pp)",WARNING,0
 210,2026-09-03T11:00:42.290977,2026-09-03,BANK_MARGIN_INCREASING,ICA Banken,2_ar,"ICA Banken (2_ar): bankens marginal har ökat med 0.20 pp de senaste 30 dagarna (listränta +0.20 pp, styrränta +0.00 pp)",WARNING,0
