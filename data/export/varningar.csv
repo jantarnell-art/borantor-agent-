@@ -1,4 +1,6 @@
 id,created_at,warning_date,category,bank,period_key,message,severity,acknowledged
+226,2026-09-09T09:22:14.285074,2026-09-09,BANK_MARGIN_INCREASING,Skandia,5_ar,"Skandia (5_ar): bankens marginal har ökat med 0.34 pp de senaste 30 dagarna (listränta +0.34 pp, styrränta +0.00 pp)",WARNING,0
+225,2026-09-09T09:22:13.944250,2026-09-09,BANK_MARGIN_INCREASING,Skandia,3_ar,"Skandia (3_ar): bankens marginal har ökat med 0.21 pp de senaste 30 dagarna (listränta +0.21 pp, styrränta +0.00 pp)",WARNING,0
 224,2026-09-08T11:00:44.357483,2026-09-08,BANK_MARGIN_INCREASING,Skandia,5_ar,"Skandia (5_ar): bankens marginal har ökat med 0.34 pp de senaste 30 dagarna (listränta +0.34 pp, styrränta +0.00 pp)",WARNING,0
 223,2026-09-08T11:00:44.355669,2026-09-08,BANK_MARGIN_INCREASING,Skandia,3_ar,"Skandia (3_ar): bankens marginal har ökat med 0.21 pp de senaste 30 dagarna (listränta +0.21 pp, styrränta +0.00 pp)",WARNING,0
 222,2026-09-08T09:19:16.320438,2026-09-08,BANK_MARGIN_INCREASING,Skandia,5_ar,"Skandia (5_ar): bankens marginal har ökat med 0.34 pp de senaste 30 dagarna (listränta +0.34 pp, styrränta +0.00 pp)",WARNING,0
