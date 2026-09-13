@@ -1,4 +1,10 @@
 id,created_at,warning_date,category,bank,period_key,message,severity,acknowledged
+258,2026-09-13T09:56:40.284950,2026-09-13,BANK_MARGIN_INCREASING,Skandia,5_ar,"Skandia (5_ar): bankens marginal har ökat med 0.34 pp de senaste 30 dagarna (listränta +0.34 pp, styrränta +0.00 pp)",WARNING,0
+257,2026-09-13T09:56:40.282521,2026-09-13,BANK_MARGIN_INCREASING,Skandia,3_ar,"Skandia (3_ar): bankens marginal har ökat med 0.21 pp de senaste 30 dagarna (listränta +0.21 pp, styrränta +0.00 pp)",WARNING,0
+256,2026-09-13T09:56:40.274399,2026-09-13,BANK_MARGIN_INCREASING,SEB,5_ar,"SEB (5_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
+255,2026-09-13T09:56:40.272077,2026-09-13,BANK_MARGIN_INCREASING,SEB,3_ar,"SEB (3_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
+254,2026-09-13T09:56:40.269069,2026-09-13,BANK_MARGIN_INCREASING,Danske Bank,2_ar,"Danske Bank (2_ar): bankens marginal har ökat med 0.15 pp de senaste 30 dagarna (listränta +0.15 pp, styrränta +0.00 pp)",WARNING,0
+253,2026-09-13T09:56:40.238360,2026-09-13,BANK_MARGIN_INCREASING,Danske Bank,1_ar,"Danske Bank (1_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
 252,2026-09-12T10:28:24.641982,2026-09-12,BANK_MARGIN_INCREASING,Skandia,5_ar,"Skandia (5_ar): bankens marginal har ökat med 0.34 pp de senaste 30 dagarna (listränta +0.34 pp, styrränta +0.00 pp)",WARNING,0
 251,2026-09-12T10:28:24.640343,2026-09-12,BANK_MARGIN_INCREASING,Skandia,3_ar,"Skandia (3_ar): bankens marginal har ökat med 0.21 pp de senaste 30 dagarna (listränta +0.21 pp, styrränta +0.00 pp)",WARNING,0
 250,2026-09-12T10:28:24.638369,2026-09-12,BANK_MARGIN_INCREASING,SEB,5_ar,"SEB (5_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
