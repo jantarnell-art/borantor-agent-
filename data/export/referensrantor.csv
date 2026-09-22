@@ -1,7 +1,7 @@
 id,collected_at,rate_date,series_key,series_label,rate,source
-1613,2026-09-22T09:36:14.453539,2026-09-22,policy_rate,Riksbankens styrränta,1.75,https://api.riksbank.se/swea/v1/observations/SECBREPOEFF
-1614,2026-09-22T09:36:14.456072,2026-09-21,gov_bond_2y,Statsobligation 2 år,2.72,https://api.riksbank.se/swea/v1/observations/SEGVB2YC
-1615,2026-09-22T09:36:14.457482,2026-09-21,gov_bond_5y,Statsobligation 5 år,2.964,https://api.riksbank.se/swea/v1/observations/SEGVB5YC
+1613,2026-09-22T11:20:41.431263,2026-09-22,policy_rate,Riksbankens styrränta,1.75,https://api.riksbank.se/swea/v1/observations/SECBREPOEFF
+1614,2026-09-22T11:20:41.440084,2026-09-21,gov_bond_2y,Statsobligation 2 år,2.72,https://api.riksbank.se/swea/v1/observations/SEGVB2YC
+1615,2026-09-22T11:20:41.441643,2026-09-21,gov_bond_5y,Statsobligation 5 år,2.964,https://api.riksbank.se/swea/v1/observations/SEGVB5YC
 1607,2026-09-21T12:31:59.412235,2026-09-21,policy_rate,Riksbankens styrränta,1.75,https://api.riksbank.se/swea/v1/observations/SECBREPOEFF
 1596,2026-09-21T12:31:59.414826,2026-09-18,gov_bond_2y,Statsobligation 2 år,2.787,https://api.riksbank.se/swea/v1/observations/SEGVB2YC
 1597,2026-09-21T12:31:59.416544,2026-09-18,gov_bond_5y,Statsobligation 5 år,3.031,https://api.riksbank.se/swea/v1/observations/SEGVB5YC
