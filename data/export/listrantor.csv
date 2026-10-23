@@ -1,47 +1,47 @@
 id,collected_at,rate_date,bank,period_key,period_label,rate,source_url
-15311,2026-10-23T09:42:51.683107,2026-10-23,Danske Bank,1_ar,1 år,3.54,https://www.finansportalen.se/bolan/
-15312,2026-10-23T09:42:51.684489,2026-10-23,Danske Bank,2_ar,2 år,3.89,https://www.finansportalen.se/bolan/
-15313,2026-10-23T09:42:48.416935,2026-10-23,Danske Bank,3_ar,3 år,3.24,https://www.compricer.se/bolan/
-15310,2026-10-23T09:42:51.681864,2026-10-23,Danske Bank,3_man,3 månader,3.84,https://www.finansportalen.se/bolan/
-15314,2026-10-23T09:42:48.418303,2026-10-23,Danske Bank,5_ar,5 år,3.35,https://www.compricer.se/bolan/
-15343,2026-10-23T09:42:51.691641,2026-10-23,Handelsbanken,1_ar,1 år,3.69,https://www.finansportalen.se/bolan/
-15344,2026-10-23T09:42:51.693581,2026-10-23,Handelsbanken,2_ar,2 år,3.94,https://www.finansportalen.se/bolan/
-15342,2026-10-23T09:42:51.690116,2026-10-23,Handelsbanken,3_man,3 månader,3.94,https://www.finansportalen.se/bolan/
-15291,2026-10-23T09:42:51.670476,2026-10-23,Hypoteket,1_ar,1 år,3.99,https://www.finansportalen.se/bolan/
-15292,2026-10-23T09:42:51.671870,2026-10-23,Hypoteket,2_ar,2 år,4.3,https://www.finansportalen.se/bolan/
-15293,2026-10-23T09:42:48.388724,2026-10-23,Hypoteket,3_ar,3 år,3.26,https://www.compricer.se/bolan/
-15290,2026-10-23T09:42:51.668995,2026-10-23,Hypoteket,3_man,3 månader,3.31,https://www.finansportalen.se/bolan/
-15294,2026-10-23T09:42:48.390198,2026-10-23,Hypoteket,5_ar,5 år,3.67,https://www.compricer.se/bolan/
-15331,2026-10-23T09:42:51.674585,2026-10-23,ICA Banken,1_ar,1 år,4.19,https://www.finansportalen.se/bolan/
-15332,2026-10-23T09:42:51.676103,2026-10-23,ICA Banken,2_ar,2 år,4.69,https://www.finansportalen.se/bolan/
-15330,2026-10-23T09:42:51.673205,2026-10-23,ICA Banken,3_man,3 månader,3.48,https://www.finansportalen.se/bolan/
-15349,2026-10-23T09:42:51.700284,2026-10-23,Länsförsäkringar,1_ar,1 år,3.74,https://www.finansportalen.se/bolan/
-15350,2026-10-23T09:42:51.701611,2026-10-23,Länsförsäkringar,2_ar,2 år,3.99,https://www.finansportalen.se/bolan/
-15348,2026-10-23T09:42:51.698924,2026-10-23,Länsförsäkringar,3_man,3 månader,3.94,https://www.finansportalen.se/bolan/
-15325,2026-10-23T09:42:51.666079,2026-10-23,SBAB,1_ar,1 år,3.72,https://www.finansportalen.se/bolan/
-15326,2026-10-23T09:42:51.667609,2026-10-23,SBAB,2_ar,2 år,4.09,https://www.finansportalen.se/bolan/
-15324,2026-10-23T09:42:51.664442,2026-10-23,SBAB,3_man,3 månader,3.15,https://www.finansportalen.se/bolan/
-15316,2026-10-23T09:42:51.696190,2026-10-23,SEB,1_ar,1 år,3.64,https://www.finansportalen.se/bolan/
-15317,2026-10-23T09:42:51.697586,2026-10-23,SEB,2_ar,2 år,3.89,https://www.finansportalen.se/bolan/
-15318,2026-10-23T09:42:48.424061,2026-10-23,SEB,3_ar,3 år,3.32,https://www.compricer.se/bolan/
-15315,2026-10-23T09:42:51.694924,2026-10-23,SEB,3_man,3 månader,3.94,https://www.finansportalen.se/bolan/
-15319,2026-10-23T09:42:48.425317,2026-10-23,SEB,5_ar,5 år,3.47,https://www.compricer.se/bolan/
-15301,2026-10-23T09:42:51.679041,2026-10-23,Skandia,1_ar,1 år,4.27,https://www.finansportalen.se/bolan/
-15302,2026-10-23T09:42:51.680442,2026-10-23,Skandia,2_ar,2 år,4.62,https://www.finansportalen.se/bolan/
-15303,2026-10-23T09:42:48.403386,2026-10-23,Skandia,3_ar,3 år,3.48,https://www.compricer.se/bolan/
-15300,2026-10-23T09:42:51.677651,2026-10-23,Skandia,3_man,3 månader,3.55,https://www.finansportalen.se/bolan/
-15304,2026-10-23T09:42:48.404697,2026-10-23,Skandia,5_ar,5 år,3.52,https://www.compricer.se/bolan/
-15296,2026-10-23T09:42:51.659617,2026-10-23,Stabelo,1_ar,1 år,3.18,https://www.finansportalen.se/bolan/
-15297,2026-10-23T09:42:51.662996,2026-10-23,Stabelo,2_ar,2 år,3.57,https://www.finansportalen.se/bolan/
-15298,2026-10-23T09:42:48.396161,2026-10-23,Stabelo,3_ar,3 år,3.37,https://www.compricer.se/bolan/
-15295,2026-10-23T09:42:51.657455,2026-10-23,Stabelo,3_man,3 månader,2.66,https://www.finansportalen.se/bolan/
-15299,2026-10-23T09:42:48.397574,2026-10-23,Stabelo,5_ar,5 år,3.5,https://www.compricer.se/bolan/
-15306,2026-10-23T09:42:51.687155,2026-10-23,Swedbank,1_ar,1 år,3.62,https://www.finansportalen.se/bolan/
-15307,2026-10-23T09:42:51.688586,2026-10-23,Swedbank,2_ar,2 år,3.89,https://www.finansportalen.se/bolan/
-15308,2026-10-23T09:42:48.410036,2026-10-23,Swedbank,3_ar,3 år,3.25,https://www.compricer.se/bolan/
-15305,2026-10-23T09:42:51.685856,2026-10-23,Swedbank,3_man,3 månader,3.89,https://www.finansportalen.se/bolan/
-15309,2026-10-23T09:42:48.411596,2026-10-23,Swedbank,5_ar,5 år,3.69,https://www.compricer.se/bolan/
-15320,2026-10-23T09:42:48.426705,2026-10-23,Ålandsbanken,3_man,3 månader,2.72,https://www.compricer.se/bolan/
+15311,2026-10-23T11:22:02.878020,2026-10-23,Danske Bank,1_ar,1 år,3.54,https://www.finansportalen.se/bolan/
+15312,2026-10-23T11:22:02.879214,2026-10-23,Danske Bank,2_ar,2 år,3.89,https://www.finansportalen.se/bolan/
+15313,2026-10-23T11:21:59.562487,2026-10-23,Danske Bank,3_ar,3 år,3.24,https://www.compricer.se/bolan/
+15310,2026-10-23T11:22:02.876871,2026-10-23,Danske Bank,3_man,3 månader,3.84,https://www.finansportalen.se/bolan/
+15314,2026-10-23T11:21:59.563721,2026-10-23,Danske Bank,5_ar,5 år,3.35,https://www.compricer.se/bolan/
+15343,2026-10-23T11:22:02.885069,2026-10-23,Handelsbanken,1_ar,1 år,3.69,https://www.finansportalen.se/bolan/
+15344,2026-10-23T11:22:02.886263,2026-10-23,Handelsbanken,2_ar,2 år,3.94,https://www.finansportalen.se/bolan/
+15342,2026-10-23T11:22:02.883935,2026-10-23,Handelsbanken,3_man,3 månader,3.94,https://www.finansportalen.se/bolan/
+15291,2026-10-23T11:22:02.867582,2026-10-23,Hypoteket,1_ar,1 år,3.99,https://www.finansportalen.se/bolan/
+15292,2026-10-23T11:22:02.868744,2026-10-23,Hypoteket,2_ar,2 år,4.3,https://www.finansportalen.se/bolan/
+15293,2026-10-23T11:21:59.538960,2026-10-23,Hypoteket,3_ar,3 år,3.26,https://www.compricer.se/bolan/
+15290,2026-10-23T11:22:02.866457,2026-10-23,Hypoteket,3_man,3 månader,3.31,https://www.finansportalen.se/bolan/
+15294,2026-10-23T11:21:59.540211,2026-10-23,Hypoteket,5_ar,5 år,3.67,https://www.compricer.se/bolan/
+15331,2026-10-23T11:22:02.871059,2026-10-23,ICA Banken,1_ar,1 år,4.19,https://www.finansportalen.se/bolan/
+15332,2026-10-23T11:22:02.872202,2026-10-23,ICA Banken,2_ar,2 år,4.69,https://www.finansportalen.se/bolan/
+15330,2026-10-23T11:22:02.869919,2026-10-23,ICA Banken,3_man,3 månader,3.48,https://www.finansportalen.se/bolan/
+15349,2026-10-23T11:22:02.892073,2026-10-23,Länsförsäkringar,1_ar,1 år,3.74,https://www.finansportalen.se/bolan/
+15350,2026-10-23T11:22:02.893219,2026-10-23,Länsförsäkringar,2_ar,2 år,3.99,https://www.finansportalen.se/bolan/
+15348,2026-10-23T11:22:02.890851,2026-10-23,Länsförsäkringar,3_man,3 månader,3.94,https://www.finansportalen.se/bolan/
+15325,2026-10-23T11:22:02.864136,2026-10-23,SBAB,1_ar,1 år,3.72,https://www.finansportalen.se/bolan/
+15326,2026-10-23T11:22:02.865292,2026-10-23,SBAB,2_ar,2 år,4.09,https://www.finansportalen.se/bolan/
+15324,2026-10-23T11:22:02.862997,2026-10-23,SBAB,3_man,3 månader,3.15,https://www.finansportalen.se/bolan/
+15316,2026-10-23T11:22:02.888518,2026-10-23,SEB,1_ar,1 år,3.64,https://www.finansportalen.se/bolan/
+15317,2026-10-23T11:22:02.889686,2026-10-23,SEB,2_ar,2 år,3.89,https://www.finansportalen.se/bolan/
+15318,2026-10-23T11:21:59.568549,2026-10-23,SEB,3_ar,3 år,3.32,https://www.compricer.se/bolan/
+15315,2026-10-23T11:22:02.887409,2026-10-23,SEB,3_man,3 månader,3.94,https://www.finansportalen.se/bolan/
+15319,2026-10-23T11:21:59.569705,2026-10-23,SEB,5_ar,5 år,3.47,https://www.compricer.se/bolan/
+15301,2026-10-23T11:22:02.874551,2026-10-23,Skandia,1_ar,1 år,4.27,https://www.finansportalen.se/bolan/
+15302,2026-10-23T11:22:02.875697,2026-10-23,Skandia,2_ar,2 år,4.62,https://www.finansportalen.se/bolan/
+15303,2026-10-23T11:21:59.550685,2026-10-23,Skandia,3_ar,3 år,3.48,https://www.compricer.se/bolan/
+15300,2026-10-23T11:22:02.873407,2026-10-23,Skandia,3_man,3 månader,3.55,https://www.finansportalen.se/bolan/
+15304,2026-10-23T11:21:59.551885,2026-10-23,Skandia,5_ar,5 år,3.52,https://www.compricer.se/bolan/
+15296,2026-10-23T11:22:02.860590,2026-10-23,Stabelo,1_ar,1 år,3.18,https://www.finansportalen.se/bolan/
+15297,2026-10-23T11:22:02.861838,2026-10-23,Stabelo,2_ar,2 år,3.57,https://www.finansportalen.se/bolan/
+15298,2026-10-23T11:21:59.544887,2026-10-23,Stabelo,3_ar,3 år,3.37,https://www.compricer.se/bolan/
+15295,2026-10-23T11:22:02.858644,2026-10-23,Stabelo,3_man,3 månader,2.66,https://www.finansportalen.se/bolan/
+15299,2026-10-23T11:21:59.546013,2026-10-23,Stabelo,5_ar,5 år,3.5,https://www.compricer.se/bolan/
+15306,2026-10-23T11:22:02.881616,2026-10-23,Swedbank,1_ar,1 år,3.62,https://www.finansportalen.se/bolan/
+15307,2026-10-23T11:22:02.882760,2026-10-23,Swedbank,2_ar,2 år,3.89,https://www.finansportalen.se/bolan/
+15308,2026-10-23T11:21:59.556586,2026-10-23,Swedbank,3_ar,3 år,3.25,https://www.compricer.se/bolan/
+15305,2026-10-23T11:22:02.880444,2026-10-23,Swedbank,3_man,3 månader,3.89,https://www.finansportalen.se/bolan/
+15309,2026-10-23T11:21:59.557774,2026-10-23,Swedbank,5_ar,5 år,3.69,https://www.compricer.se/bolan/
+15320,2026-10-23T11:21:59.570876,2026-10-23,Ålandsbanken,3_man,3 månader,2.72,https://www.compricer.se/bolan/
 15174,2026-10-22T11:32:16.542636,2026-10-22,Danske Bank,1_ar,1 år,3.54,https://www.finansportalen.se/bolan/
 15175,2026-10-22T11:32:16.543937,2026-10-22,Danske Bank,2_ar,2 år,3.89,https://www.finansportalen.se/bolan/
 15176,2026-10-22T11:32:12.980510,2026-10-22,Danske Bank,3_ar,3 år,3.24,https://www.compricer.se/bolan/
