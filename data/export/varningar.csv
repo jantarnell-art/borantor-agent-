@@ -1,4 +1,18 @@
 id,created_at,warning_date,category,bank,period_key,message,severity,acknowledged
+2037,2026-11-07T11:27:38.581987,2026-11-07,BANK_MARGIN_INCREASING,Swedbank,3_man,"Swedbank (3_man): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
+2036,2026-11-07T11:27:38.580288,2026-11-07,BANK_MARGIN_INCREASING,Stabelo,5_ar,"Stabelo (5_ar): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
+2035,2026-11-07T11:27:38.579070,2026-11-07,BANK_MARGIN_INCREASING,Stabelo,3_ar,"Stabelo (3_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
+2034,2026-11-07T11:27:38.577920,2026-11-07,BANK_MARGIN_INCREASING,Stabelo,2_ar,"Stabelo (2_ar): bankens marginal har ökat med 0.20 pp de senaste 30 dagarna (listränta +0.20 pp, styrränta +0.00 pp)",WARNING,0
+2033,2026-11-07T11:27:38.576741,2026-11-07,BANK_MARGIN_INCREASING,Skandia,5_ar,"Skandia (5_ar): bankens marginal har ökat med 0.24 pp de senaste 30 dagarna (listränta +0.24 pp, styrränta +0.00 pp)",WARNING,0
+2032,2026-11-07T11:27:38.575583,2026-11-07,BANK_MARGIN_INCREASING,Skandia,3_ar,"Skandia (3_ar): bankens marginal har ökat med 0.27 pp de senaste 30 dagarna (listränta +0.27 pp, styrränta +0.00 pp)",WARNING,0
+2031,2026-11-07T11:27:38.574352,2026-11-07,BANK_MARGIN_INCREASING,SEB,5_ar,"SEB (5_ar): bankens marginal har ökat med 0.37 pp de senaste 30 dagarna (listränta +0.37 pp, styrränta +0.00 pp)",WARNING,0
+2030,2026-11-07T11:27:38.573061,2026-11-07,BANK_MARGIN_INCREASING,SEB,3_man,"SEB (3_man): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
+2029,2026-11-07T11:27:38.561950,2026-11-07,BANK_MARGIN_INCREASING,SEB,3_ar,"SEB (3_ar): bankens marginal har ökat med 0.31 pp de senaste 30 dagarna (listränta +0.31 pp, styrränta +0.00 pp)",WARNING,0
+2028,2026-11-07T11:27:38.557572,2026-11-07,BANK_MARGIN_INCREASING,Länsförsäkringar,3_man,"Länsförsäkringar (3_man): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
+2027,2026-11-07T11:27:38.556312,2026-11-07,BANK_MARGIN_INCREASING,Hypoteket,3_ar,"Hypoteket (3_ar): bankens marginal har ökat med 0.38 pp de senaste 30 dagarna (listränta +0.38 pp, styrränta +0.00 pp)",WARNING,0
+2026,2026-11-07T11:27:38.555167,2026-11-07,BANK_MARGIN_INCREASING,Handelsbanken,3_man,"Handelsbanken (3_man): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
+2025,2026-11-07T11:27:38.554003,2026-11-07,BANK_MARGIN_INCREASING,Danske Bank,5_ar,"Danske Bank (5_ar): bankens marginal har ökat med 0.36 pp de senaste 30 dagarna (listränta +0.36 pp, styrränta +0.00 pp)",WARNING,0
+2024,2026-11-07T11:27:38.552579,2026-11-07,BANK_MARGIN_INCREASING,Danske Bank,3_ar,"Danske Bank (3_ar): bankens marginal har ökat med 0.30 pp de senaste 30 dagarna (listränta +0.30 pp, styrränta +0.00 pp)",WARNING,0
 2023,2026-11-06T14:03:06.741128,2026-11-06,BANK_MARGIN_INCREASING,Swedbank,3_man,"Swedbank (3_man): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
 2022,2026-11-06T14:03:06.739828,2026-11-06,BANK_MARGIN_INCREASING,Stabelo,5_ar,"Stabelo (5_ar): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
 2021,2026-11-06T14:03:06.738460,2026-11-06,BANK_MARGIN_INCREASING,Stabelo,3_ar,"Stabelo (3_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
@@ -985,17 +999,3 @@ id,created_at,warning_date,category,bank,period_key,message,severity,acknowledge
 1040,2026-10-04T10:52:08.667091,2026-10-04,BANK_MARGIN_INCREASING,Stabelo,2_ar,"Stabelo (2_ar): bankens marginal har ökat med 0.15 pp de senaste 30 dagarna (listränta +0.15 pp, styrränta +0.00 pp)",WARNING,0
 1039,2026-10-04T10:52:08.665769,2026-10-04,BANK_MARGIN_INCREASING,Stabelo,1_ar,"Stabelo (1_ar): bankens marginal har ökat med 0.15 pp de senaste 30 dagarna (listränta +0.15 pp, styrränta +0.00 pp)",WARNING,0
 1038,2026-10-04T10:52:08.664488,2026-10-04,BANK_MARGIN_INCREASING,Skandia,5_ar,"Skandia (5_ar): bankens marginal har ökat med 0.34 pp de senaste 30 dagarna (listränta +0.34 pp, styrränta +0.00 pp)",WARNING,0
-1037,2026-10-04T10:52:08.663207,2026-10-04,BANK_MARGIN_INCREASING,Skandia,3_ar,"Skandia (3_ar): bankens marginal har ökat med 0.21 pp de senaste 30 dagarna (listränta +0.21 pp, styrränta +0.00 pp)",WARNING,0
-1036,2026-10-04T10:52:08.661809,2026-10-04,BANK_MARGIN_INCREASING,Skandia,2_ar,"Skandia (2_ar): bankens marginal har ökat med 0.35 pp de senaste 30 dagarna (listränta +0.35 pp, styrränta +0.00 pp)",WARNING,0
-1035,2026-10-04T10:52:08.660482,2026-10-04,BANK_MARGIN_INCREASING,Skandia,1_ar,"Skandia (1_ar): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
-1034,2026-10-04T10:52:08.659202,2026-10-04,BANK_MARGIN_INCREASING,SEB,5_ar,"SEB (5_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
-1033,2026-10-04T10:52:08.657885,2026-10-04,BANK_MARGIN_INCREASING,SEB,3_ar,"SEB (3_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
-1032,2026-10-04T10:52:08.656372,2026-10-04,BANK_MARGIN_INCREASING,SEB,2_ar,"SEB (2_ar): bankens marginal har ökat med 0.20 pp de senaste 30 dagarna (listränta +0.20 pp, styrränta +0.00 pp)",WARNING,0
-1031,2026-10-04T10:52:08.655080,2026-10-04,BANK_MARGIN_INCREASING,SEB,1_ar,"SEB (1_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
-1030,2026-10-04T10:52:08.653767,2026-10-04,BANK_MARGIN_INCREASING,SBAB,2_ar,"SBAB (2_ar): bankens marginal har ökat med 0.45 pp de senaste 30 dagarna (listränta +0.45 pp, styrränta +0.00 pp)",WARNING,0
-1029,2026-10-04T10:52:08.652482,2026-10-04,BANK_MARGIN_INCREASING,SBAB,1_ar,"SBAB (1_ar): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
-1028,2026-10-04T10:52:08.651121,2026-10-04,BANK_MARGIN_INCREASING,Länsförsäkringar,2_ar,"Länsförsäkringar (2_ar): bankens marginal har ökat med 0.30 pp de senaste 30 dagarna (listränta +0.30 pp, styrränta +0.00 pp)",WARNING,0
-1027,2026-10-04T10:52:08.649767,2026-10-04,BANK_MARGIN_INCREASING,Länsförsäkringar,1_ar,"Länsförsäkringar (1_ar): bankens marginal har ökat med 0.15 pp de senaste 30 dagarna (listränta +0.15 pp, styrränta +0.00 pp)",WARNING,0
-1026,2026-10-04T10:52:08.648438,2026-10-04,BANK_MARGIN_INCREASING,ICA Banken,2_ar,"ICA Banken (2_ar): bankens marginal har ökat med 0.34 pp de senaste 30 dagarna (listränta +0.34 pp, styrränta +0.00 pp)",WARNING,0
-1025,2026-10-04T10:52:08.647082,2026-10-04,BANK_MARGIN_INCREASING,ICA Banken,1_ar,"ICA Banken (1_ar): bankens marginal har ökat med 0.29 pp de senaste 30 dagarna (listränta +0.29 pp, styrränta +0.00 pp)",WARNING,0
-1024,2026-10-04T10:52:08.645697,2026-10-04,BANK_MARGIN_INCREASING,Hypoteket,2_ar,"Hypoteket (2_ar): bankens marginal har ökat med 0.30 pp de senaste 30 dagarna (listränta +0.30 pp, styrränta +0.00 pp)",WARNING,0
