@@ -1,4 +1,7 @@
 id,created_at,warning_date,category,bank,period_key,message,severity,acknowledged
+2140,2026-11-11T12:21:47.721996,2026-11-11,BANK_MARGIN_INCREASING,SEB,5_ar,"SEB (5_ar): bankens marginal har ökat med 0.12 pp de senaste 30 dagarna (listränta +0.37 pp, styrränta +0.25 pp)",WARNING,0
+2139,2026-11-11T12:21:47.720467,2026-11-11,BANK_MARGIN_INCREASING,Hypoteket,3_ar,"Hypoteket (3_ar): bankens marginal har ökat med 0.13 pp de senaste 30 dagarna (listränta +0.38 pp, styrränta +0.25 pp)",WARNING,0
+2138,2026-11-11T12:21:47.718783,2026-11-11,BANK_MARGIN_INCREASING,Danske Bank,5_ar,"Danske Bank (5_ar): bankens marginal har ökat med 0.11 pp de senaste 30 dagarna (listränta +0.36 pp, styrränta +0.25 pp)",WARNING,0
 2137,2026-11-10T14:40:57.334821,2026-11-10,BANK_MARGIN_INCREASING,Swedbank,3_man,"Swedbank (3_man): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
 2136,2026-11-10T14:40:57.333187,2026-11-10,BANK_MARGIN_INCREASING,Stabelo,5_ar,"Stabelo (5_ar): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
 2135,2026-11-10T14:40:57.331685,2026-11-10,BANK_MARGIN_INCREASING,Stabelo,3_ar,"Stabelo (3_ar): bankens marginal har ökat med 0.10 pp de senaste 30 dagarna (listränta +0.10 pp, styrränta +0.00 pp)",WARNING,0
@@ -996,6 +999,3 @@ id,created_at,warning_date,category,bank,period_key,message,severity,acknowledge
 1143,2026-10-07T11:29:15.372932,2026-10-07,BANK_MARGIN_INCREASING,Danske Bank,2_ar,"Danske Bank (2_ar): bankens marginal har ökat med 0.33 pp de senaste 30 dagarna (listränta +0.33 pp, styrränta +0.00 pp)",WARNING,0
 1142,2026-10-07T11:29:15.370451,2026-10-07,BANK_MARGIN_INCREASING,Danske Bank,1_ar,"Danske Bank (1_ar): bankens marginal har ökat med 0.15 pp de senaste 30 dagarna (listränta +0.15 pp, styrränta +0.00 pp)",WARNING,0
 1141,2026-10-06T13:09:51.053177,2026-10-06,BANK_MARGIN_INCREASING,Swedbank,2_ar,"Swedbank (2_ar): bankens marginal har ökat med 0.25 pp de senaste 30 dagarna (listränta +0.25 pp, styrränta +0.00 pp)",WARNING,0
-1140,2026-10-06T13:09:51.051346,2026-10-06,BANK_MARGIN_INCREASING,Swedbank,1_ar,"Swedbank (1_ar): bankens marginal har ökat med 0.13 pp de senaste 30 dagarna (listränta +0.13 pp, styrränta +0.00 pp)",WARNING,0
-1139,2026-10-06T13:09:51.049673,2026-10-06,BANK_MARGIN_INCREASING,Stabelo,2_ar,"Stabelo (2_ar): bankens marginal har ökat med 0.15 pp de senaste 30 dagarna (listränta +0.15 pp, styrränta +0.00 pp)",WARNING,0
-1138,2026-10-06T13:09:51.048032,2026-10-06,BANK_MARGIN_INCREASING,Stabelo,1_ar,"Stabelo (1_ar): bankens marginal har ökat med 0.15 pp de senaste 30 dagarna (listränta +0.15 pp, styrränta +0.00 pp)",WARNING,0
